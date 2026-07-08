@@ -3,19 +3,24 @@ name: Deploy to GitHub Pages
 on:
     push:
         branches:
-            - master
+            - main
+
+permissions:
+    contents: read
+    pages: write
+    id-token: write
 
 concurrency:
     group: pages
     cancel-in-progress: false
 
 jobs:
-    deploy:
+    build:
         runs-on: ubuntu-latest
 
         steps:
             - name: Checkout repository
-              uses: actions/checkout@v3
+              uses: actions/checkout@v4
 
             - name: Install Node.js
               uses: actions/setup-node@v4
@@ -24,10 +29,7 @@ jobs:
                   cache: 'npm'
 
             - name: Install dependencies
-              run: npm i --legacy-peer-deps
-
-            - name: Rebuild lightningcss
-              run: npm rebuild lightningcss
+              run: npm ci
 
             - name: Build Angular app
               run: npm run build
@@ -38,29 +40,21 @@ jobs:
             - name: Create 404.html for client-side routing
               run: cp dist/app/browser/index.html dist/app/browser/404.html
 
-            - name: Set up SSH
-              env:
-                  SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-              run: |
-                  mkdir -p ~/.ssh
-                  echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
-                  chmod 600 ~/.ssh/id_rsa
-                  ssh-keyscan github.com >> ~/.ssh/known_hosts
+            - name: Setup Pages
+              uses: actions/configure-pages@v5
 
-            - name: Commit and push to gh-pages using SSH
-              env:
-                  GIT_SSH_COMMAND: 'ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no'
-              run: |
-                  git config --global user.name "github-actions[bot]"
-                  git config --global user.email "github-actions[bot]@users.noreply.github.com"
-                  cd dist/app/browser
-                  git init  # Initialize a new git repository
-                  git add --all .  # Add all changes
-                  git commit -m "Deploy to GitHub Pages"
-                  git checkout -B gh-pages  # Switch to gh-pages branch
-                  git push git@github.com:${{ github.repository }} gh-pages --force
+            - name: Upload artifact
+              uses: actions/upload-pages-artifact@v3
+              with:
+                  path: dist/app/browser
 
-            - name: Clean up SSH
-              run: |
-                  rm -f ~/.ssh/id_rsa
-                  rm -f ~/.ssh/known_hosts
+    deploy:
+        needs: build
+        runs-on: ubuntu-latest
+        environment:
+            name: github-pages
+            url: ${{ steps.deployment.outputs.page_url }}
+        steps:
+            - name: Deploy to GitHub Pages
+              id: deployment
+              uses: actions/deploy-pages@v4
