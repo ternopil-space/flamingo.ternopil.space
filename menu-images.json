@@ -1,0 +1,779 @@
+{
+	"_instructions": "Paste a photo URL (a local path like /dish/marharyta.webp, or a full https:// link) into \"imageUrl\" for each dish below. Leave blank to keep the automatic local placeholder path. When done, tell Claude to apply this file and it will update src/data/dish/dishes.json for you.",
+	"dishes": [
+		{
+			"category": "Nuovo Italiano",
+			"slug": "anchousy-z-tomatamy-pelati",
+			"name": "Анчоуси з томатами пелаті",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/%D1%96%D1%82%D0%B0%D0%BB%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%B0%20%D0%B2%D0%B5%D1%81%D0%BD%D0%B0/38-242x242.png"
+		},
+		{
+			"category": "Nuovo Italiano",
+			"slug": "olyvky-z-sytsylii",
+			"name": "Оливки з Сицилії",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/%D1%96%D1%82%D0%B0%D0%BB%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%B0%20%D0%B2%D0%B5%D1%81%D0%BD%D0%B0/34-242x242.png"
+		},
+		{
+			"category": "Nuovo Italiano",
+			"slug": "artyshoky-z-kremovym-maskarpone",
+			"name": "Артишоки з кремовим маскарпоне",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/%D1%96%D1%82%D0%B0%D0%BB%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%B0%20%D0%B2%D0%B5%D1%81%D0%BD%D0%B0/33-242x242.png"
+		},
+		{
+			"category": "Nuovo Italiano",
+			"slug": "parma-chiken",
+			"name": "Парма чікен",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/%D1%96%D1%82%D0%B0%D0%BB%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%B0%20%D0%B2%D0%B5%D1%81%D0%BD%D0%B0/40-242x242.png"
+		},
+		{
+			"category": "Nuovo Italiano",
+			"slug": "mitboly-mama-miia",
+			"name": "Мітболи мама мія!",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/%D1%96%D1%82%D0%B0%D0%BB%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%B0%20%D0%B2%D0%B5%D1%81%D0%BD%D0%B0/%D0%BC%D1%96%D1%82%D0%B1%D0%BE%D0%BB%D0%B8-242x242.png"
+		},
+		{
+			"category": "Сніданки",
+			"slug": "italiiskyi-snidanok",
+			"name": "Італійський сніданок",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/snidanku/%D1%81%D0%BD%D1%96%D0%B4%D0%B0%D0%BD%D0%BE%D0%BA_%D0%B0%D0%BD%D0%B3%D0%BB-242x242.png"
+		},
+		{
+			"category": "Сніданки",
+			"slug": "flafi-omlet-z-krevetkamy",
+			"name": "Флафі омлет з креветками",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/snidanku/%D1%81%D0%BD%D1%96%D0%B4%D0%B0%D0%BD%D0%BE%D0%BA_%D0%B7%D0%BA%D1%80%D0%B8%D0%B2%D0%B5%D1%82%D0%BA%D0%BE%D1%8E-242x242.png"
+		},
+		{
+			"category": "Сніданки",
+			"slug": "flafi-omlet-z-lososem",
+			"name": "Флафі омлет з лососем",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/snidanku/%D1%81%D0%BD%D1%96%D0%B4%D0%B0%D0%BD%D0%BE%D0%BA_%D0%BB%D0%BE%D1%81%D0%BE%D1%81%D1%8C-242x242.png"
+		},
+		{
+			"category": "Сніданки",
+			"slug": "flafi-omlet-z-mitbolamy",
+			"name": "Флафі омлет з мітболами",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/%D1%96%D1%82%D0%B0%D0%BB%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%B0%20%D0%B2%D0%B5%D1%81%D0%BD%D0%B0/39-242x242.png"
+		},
+		{
+			"category": "Сніданки",
+			"slug": "avokado-tost-z-lososem",
+			"name": "Авокадо тост з лососем",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/snidanku/32-242x242.png"
+		},
+		{
+			"category": "Сніданки",
+			"slug": "shakshuka-z-chorizo",
+			"name": "Шакшука з чорізо",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/%D1%96%D1%82%D0%B0%D0%BB%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%B0%20%D0%B2%D0%B5%D1%81%D0%BD%D0%B0/1013(5)-242x242.png"
+		},
+		{
+			"category": "Сніданки",
+			"slug": "syrnyky-po-italiisky-z-solenoiu-karamelliu",
+			"name": "Сирники по-італійськи з соленою карамеллю",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/snidanku/%D1%81%D0%B8%D1%80%D0%BD%D0%B8%D0%BA%D0%B8-242x242.jpg"
+		},
+		{
+			"category": "Бізнес-ланчі",
+			"slug": "biznes-lanch-ponedilok",
+			"name": "Бізнес-ланч понеділок",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/diloviobidi/dilovij-lanch_ponedilok2021-242x242.jpg"
+		},
+		{
+			"category": "Бізнес-ланчі",
+			"slug": "biznes-lanch-vivtorok",
+			"name": "Бізнес-ланч вівторок",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/diloviobidi/vivtorok-21.06-242x242.jpg"
+		},
+		{
+			"category": "Бізнес-ланчі",
+			"slug": "biznes-lanch-sereda",
+			"name": "Бізнес-ланч середа",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/diloviobidi/sereda-21.06-2-242x242.jpg"
+		},
+		{
+			"category": "Бізнес-ланчі",
+			"slug": "biznes-lanch-chetver",
+			"name": "Бізнес-ланч четвер",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/diloviobidi/chetver-21.06-242x242.jpg"
+		},
+		{
+			"category": "Бізнес-ланчі",
+			"slug": "biznes-lanch-piatnytsia",
+			"name": "Бізнес-ланч п'ятниця",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/diloviobidi/pjatnicja-21.06-242x242.jpg"
+		},
+		{
+			"category": "Для дітей",
+			"slug": "pasta-z-tefteliamy",
+			"name": "Паста з тефтелями",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/%D1%82%D1%96%D1%84%D1%82%D0%B5%D0%BB%D1%96-242x242.png"
+		},
+		{
+			"category": "Для дітей",
+			"slug": "uliublenyi-bulion",
+			"name": "Улюблений бульйон",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B1%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B8(44)-242x242.png"
+		},
+		{
+			"category": "Для дітей",
+			"slug": "kytsia-kytsiunia",
+			"name": "Киця-кицюня",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/%D0%BA%D0%B8%D1%86%D1%8F-242x242.png"
+		},
+		{
+			"category": "Для дітей",
+			"slug": "super-puper",
+			"name": "Супер-пупер",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/%D1%81%D1%83%D0%BF%D0%B5%D1%80-%D0%BF%D1%83%D0%BF%D0%B5%D1%80-242x242.png"
+		},
+		{
+			"category": "Для дітей",
+			"slug": "hrybochok",
+			"name": "Грибочок",
+			"imageUrl": "https://samogon.org/image/cache/catalog/p_p/pica/img_1758-242x242.png"
+		},
+		{
+			"category": "Для дітей",
+			"slug": "vinni-pukh",
+			"name": "Вінні пух",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/%D0%BF%D1%96%D1%86%D0%B0/%D0%B2%D1%96%D0%BD%D0%BD%D1%962022-242x242.jpg"
+		},
+		{
+			"category": "Для дітей",
+			"slug": "milksheik-bananovyi",
+			"name": "Мілкшейк банановий",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%BC%D1%96%D0%BB%D0%BA%D1%88%D0%B5%D0%B9%D0%BA_%D0%BB%D0%B5%D0%B3%D0%BE_%D1%81%D0%B8%D0%BD%D1%96%D0%B9-242x242.jpg"
+		},
+		{
+			"category": "Для дітей",
+			"slug": "milksheik-iahidnyi",
+			"name": "Мілкшейк ягідний",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%BC%D1%96%D0%BB%D0%BA%D1%88%D0%B5%D0%B9%D0%BA_%D0%BB%D0%B5%D0%B3%D0%BE_%D1%80%D0%BE%D0%B7%D0%BE%D0%B2%D0%B8%D0%B9-242x242.jpg"
+		},
+		{
+			"category": "Піци",
+			"slug": "z-ialovychynoiu-konfi",
+			"name": "З яловичиною конфі",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/%D0%BF%D1%96%D1%86%D0%B0/%D0%BF%D1%96%D1%86%D0%B0-242x242.png"
+		},
+		{
+			"category": "Піци",
+			"slug": "ukrainska",
+			"name": "Українська",
+			"imageUrl": "https://samogon.org/image/cache/catalog/pizza/img_2051_1-242x242.jpg"
+		},
+		{
+			"category": "Піци",
+			"slug": "karbonara",
+			"name": "Карбонара",
+			"imageUrl": "https://samogon.org/image/cache/catalog/p_p/pica/korbonara-2020-242x242.jpg"
+		},
+		{
+			"category": "Піци",
+			"slug": "amerykana",
+			"name": "Американа",
+			"imageUrl": "https://samogon.org/image/cache/catalog/pizza/img_1972-242x242.jpg"
+		},
+		{
+			"category": "Піци",
+			"slug": "kaprychoza",
+			"name": "Капричоза",
+			"imageUrl": "https://samogon.org/image/cache/catalog/p_p/pica/kaprichoza-2020-242x242.jpg"
+		},
+		{
+			"category": "Піци",
+			"slug": "sfornata",
+			"name": "Сфорната",
+			"imageUrl": "https://samogon.org/image/cache/catalog/pizza/%D0%A1%D1%84%D0%BE%D1%80%D0%BD%D0%B0%D1%82%D0%B0-242x242.jpg"
+		},
+		{
+			"category": "Піци",
+			"slug": "kalobreze",
+			"name": "Калобрезе",
+			"imageUrl": "https://samogon.org/image/cache/catalog/001/kalobreze-242x242.jpg"
+		},
+		{
+			"category": "Піци",
+			"slug": "chotyry-sezony",
+			"name": "Чотири сезони",
+			"imageUrl": "https://samogon.org/image/cache/catalog/pizza/chotirisezoni3-242x242.jpg"
+		},
+		{
+			"category": "Піци",
+			"slug": "marharyta",
+			"name": "Маргарита",
+			"imageUrl": "https://samogon.org/image/cache/catalog/p_p/pica/2022/margarita-24.08.22-1-242x242.jpg"
+		},
+		{
+			"category": "Піци",
+			"slug": "nutella",
+			"name": "Нутелла",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/%D0%BF%D1%96%D1%86%D0%B0_%D0%BD%D1%83%D1%82%D0%B5%D0%BB%D0%B0_%D0%BF%D0%BE%D0%BB%D1%83%D0%BD%D0%B8%D1%86%D1%8F%20(2)-242x242.png"
+		},
+		{
+			"category": "Піци",
+			"slug": "al-salmone",
+			"name": "Аль сальмоне",
+			"imageUrl": "https://samogon.org/image/cache/catalog/p_p/pica/2022/salmone_virna(2)-242x242.jpg"
+		},
+		{
+			"category": "Піци",
+			"slug": "bavariia",
+			"name": "Баварія",
+			"imageUrl": "https://samogon.org/image/cache/catalog/p_p/pica/bavaryja-2020-242x242.jpg"
+		},
+		{
+			"category": "Піци",
+			"slug": "peperoni",
+			"name": "Пепероні",
+			"imageUrl": "https://samogon.org/image/cache/catalog/pizza/%D0%9F%D0%B0%D0%BF%D0%B5%D1%80%D0%BE%D0%BD%D1%96-242x242.png"
+		},
+		{
+			"category": "Піци",
+			"slug": "podviina-peperoni",
+			"name": "Подвійна пепероні",
+			"imageUrl": "https://samogon.org/image/cache/catalog/pizza/%D0%9F%D0%BE%D0%B4%D0%B2%D1%96%D0%B9%D0%BD%D0%B0%20%D0%BF%D0%B0%D0%BF%D0%B5%D1%80%D0%BE%D0%BD%D1%96%203-242x242.jpg"
+		},
+		{
+			"category": "Піци",
+			"slug": "proshuto",
+			"name": "Прошуто",
+			"imageUrl": "https://samogon.org/image/cache/catalog/p_p/pica/proshuto2-242x242.jpg"
+		},
+		{
+			"category": "Піци",
+			"slug": "saliami",
+			"name": "Салямі",
+			"imageUrl": "https://samogon.org/image/cache/catalog/p_p/pica/saljami-2020-242x242.jpg"
+		},
+		{
+			"category": "Піци",
+			"slug": "tonno",
+			"name": "Тонно",
+			"imageUrl": "https://samogon.org/image/cache/catalog/pizza/img_1980-242x242.jpg"
+		},
+		{
+			"category": "Піци",
+			"slug": "flaminho",
+			"name": "Фламінго",
+			"imageUrl": "https://samogon.org/image/cache/catalog/p_p/pica/flamingo-2020-242x242.jpg"
+		},
+		{
+			"category": "Піци",
+			"slug": "chorizo",
+			"name": "Чорізо",
+			"imageUrl": "https://samogon.org/image/cache/catalog/p_p/pica/chorizo-2020-242x242.jpg"
+		},
+		{
+			"category": "Піци",
+			"slug": "tartufo",
+			"name": "Тартуфо",
+			"imageUrl": "https://samogon.org/image/cache/catalog/001/tartufo-02.08.22-242x242.jpg"
+		},
+		{
+			"category": "Піци",
+			"slug": "havaiska",
+			"name": "Гавайська",
+			"imageUrl": "https://samogon.org/image/cache/catalog/p_p/pica/2022/gavajska-22.12.22-242x242.jpg"
+		},
+		{
+			"category": "Піци",
+			"slug": "hrybna",
+			"name": "Грибна",
+			"imageUrl": "https://samogon.org/image/cache/catalog/p_p/pica/2022/gribna-22.12.22-242x242.jpg"
+		},
+		{
+			"category": "Піци",
+			"slug": "kvatro-formadzhi",
+			"name": "Кватро формаджі",
+			"imageUrl": "https://samogon.org/image/cache/catalog/p_p/pica/kvatroformadzhi(2)-242x242.jpg"
+		},
+		{
+			"category": "Піци",
+			"slug": "polo-kon-formadzhi",
+			"name": "Поло кон формаджі",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/%D0%BF%D1%96%D1%86%D0%B0/photo_2025-04-16_11-31-43-242x242.jpg"
+		},
+		{
+			"category": "Піци",
+			"slug": "parma",
+			"name": "Парма",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/%D0%BF%D0%B0%D1%80%D0%BC%D0%B0%20(2)-242x242.jpg"
+		},
+		{
+			"category": "Піци",
+			"slug": "ranch",
+			"name": "Ранч",
+			"imageUrl": "https://samogon.org/image/cache/catalog/p_p/pica/ranch2-242x242.jpg"
+		},
+		{
+			"category": "Піци",
+			"slug": "kaltsone-al-forno",
+			"name": "Кальцоне аль форно",
+			"imageUrl": "https://samogon.org/image/cache/catalog/p_p/pica/kalcone-242x242.jpg"
+		},
+		{
+			"category": "Бургери",
+			"slug": "burher-ukrainskyi",
+			"name": "Бургер український",
+			"imageUrl": "https://samogon.org/image/cache/catalog/burgeru/ukrayinskij-24.08.22-242x242.jpg"
+		},
+		{
+			"category": "Бургери",
+			"slug": "chizburher-kuriachyi",
+			"name": "Чізбургер курячий",
+			"imageUrl": "https://samogon.org/image/cache/catalog/burgeru/img_1770_kurjachij_700h700-242x242.jpg"
+		},
+		{
+			"category": "Бургери",
+			"slug": "chizburher-ialovychyi",
+			"name": "Чізбургер яловичий",
+			"imageUrl": "https://samogon.org/image/cache/catalog/burgeru/img_1762_jalovichij_700h700-242x242.jpg"
+		},
+		{
+			"category": "Бургери",
+			"slug": "meha-syrnyi",
+			"name": "Мега сирний",
+			"imageUrl": "https://samogon.org/image/cache/catalog/stariy_mlyn/2022/solodki-smakotuli/img_1674_mega-sirnij_700h700-242x242.jpg"
+		},
+		{
+			"category": "Бургери",
+			"slug": "kurka-chubaturka",
+			"name": "Курка чубатурка",
+			"imageUrl": "https://samogon.org/image/cache/catalog/stariy_mlyn/2022/solodki-smakotuli/img_1663_chubaturka_700h700-242x242.jpg"
+		},
+		{
+			"category": "Бургери",
+			"slug": "try-kotlety",
+			"name": "Три котлети",
+			"imageUrl": "https://samogon.org/image/cache/catalog/stariy_mlyn/2022/solodki-smakotuli/img_1540_tri-kotleti_pljazhnij_700h700-242x242.jpg"
+		},
+		{
+			"category": "Салати та закуски",
+			"slug": "salat-tsezar-z-krevetkamy",
+			"name": "Салат цезар з креветками",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/salati/cezarzkrevetkami-242x242.jpg"
+		},
+		{
+			"category": "Салати та закуски",
+			"slug": "salat-tsezar-z-kuriachym-file",
+			"name": "Салат цезар з курячим філе",
+			"imageUrl": "https://samogon.org/image/cache/catalog/p_p/salati-zakuski/cezar-2021(1)-242x242.jpg"
+		},
+		{
+			"category": "Салати та закуски",
+			"slug": "insalata-di-feta",
+			"name": "Інсалата ді фета",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/salati/ee1feeb2-8db2-42e8-b2f7-e586137a9da1.png(2)-242x242.png"
+		},
+		{
+			"category": "Салати та закуски",
+			"slug": "salat-z-strachatelloiu",
+			"name": "Салат з страчателлою",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/salati/%D1%81%D0%B0%D0%BB%D0%B0%D1%82%20%D0%B7%20%D1%81%D1%82%D1%80%D0%B0%D1%87%D0%B0%D1%82%D0%B5%D0%BB%D0%BE%D1%8E-242x242.jpg"
+		},
+		{
+			"category": "Салати та закуски",
+			"slug": "insalata-di-vitelo",
+			"name": "Інсалата ді вітело",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/salati/%D0%B4%D1%96-%D0%B2%D1%96%D1%82%D0%B5%D0%BB%D0%BE-2022-242x242.jpg"
+		},
+		{
+			"category": "Салати та закуски",
+			"slug": "teplyi-salat-z-ovochamy-hryl",
+			"name": "Теплий салат з овочами гриль",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/salati/%D1%82%D0%B5%D0%BF%D0%BB%D0%B8%D0%B9%20%D1%81%D0%B0%D0%BB%D0%B0%D1%82%20%D0%B7%20%D0%BE%D0%B2%D0%BE%D1%87%D0%B0%D0%BC%D0%B8%20%D0%B3%D1%80%D0%B8%D0%BB%D1%8C-242x242.jpg"
+		},
+		{
+			"category": "Салати та закуски",
+			"slug": "insalata-di-proshuto-z-pechenoiu-hrusheiu",
+			"name": "Інсалата ді прошуто з печеною грушею",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/salati/%D1%81%D0%B0%D0%BB%D0%B0%D1%82%20%D0%B7%20%D0%B3%D1%80%D1%83%D1%88%D0%B5%D1%8E-242x242.png"
+		},
+		{
+			"category": "Салати та закуски",
+			"slug": "tartar-z-teliatyny",
+			"name": "Тартар з телятини",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/salati/%D1%82%D0%B0%D1%80%D1%82%D0%B0%D1%80-242x242.jpg"
+		},
+		{
+			"category": "Салати та закуски",
+			"slug": "syrno-miasne-plato",
+			"name": "Сирно-м'ясне плато",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/salati/%D1%81%D0%B8%D1%80%D0%BD%D0%BE-%D0%BC%D1%8F%D1%81%D0%BD%D0%B5%20%D0%BF%D0%BB%D0%B0%D1%82%D0%BE-242x242.jpg"
+		},
+		{
+			"category": "Паста",
+			"slug": "ravioli-del-plin",
+			"name": "Равіолі дель плін",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/pasta/%D1%80%D0%B0%D0%B2%D1%96%D0%BE%D0%BB%D1%96_%D0%B4%D0%B5%D0%BB%D1%8C%20%D0%BF%D0%BB%D1%96%D0%BD-242x242.jpg"
+		},
+		{
+			"category": "Паста",
+			"slug": "vau-krevetka",
+			"name": "Вау! Креветка",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/pasta/35-242x242.png"
+		},
+		{
+			"category": "Паста",
+			"slug": "ravioli-z-hrybamy",
+			"name": "Равіолі з грибами",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/pasta/ravioli-gribi-7.12.21-242x242.jpg"
+		},
+		{
+			"category": "Паста",
+			"slug": "uliublene-bolonieze",
+			"name": "Улюблене болоньєзе",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/%D1%96%D1%82%D0%B0%D0%BB%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%B0%20%D0%B2%D0%B5%D1%81%D0%BD%D0%B0/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B1%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B8(17)-242x242.png"
+		},
+		{
+			"category": "Паста",
+			"slug": "ravioli-z-syrom",
+			"name": "Равіолі з сиром",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/pasta/raviolizsyrom-242x242.jpg"
+		},
+		{
+			"category": "Паста",
+			"slug": "ravioli-zi-shpynatom-ta-rikotoiu",
+			"name": "Равіолі зі шпинатом та рікотою",
+			"imageUrl": "https://samogon.org/image/cache/catalog/p_p/pasta/ravoli-shpinat-rikota-242x242.jpg"
+		},
+		{
+			"category": "Паста",
+			"slug": "spaheti-karbonara",
+			"name": "Спагеті карбонара",
+			"imageUrl": "https://samogon.org/image/cache/catalog/p_p/pasta/karbonara-7.12.21-242x242.jpg"
+		},
+		{
+			"category": "Паста",
+			"slug": "fetuchini-z-hrybamy-i-shynkoiu",
+			"name": "Фетучіні з грибами і шинкою",
+			"imageUrl": "https://samogon.org/image/cache/catalog/p_p/pasta/fetuchini-shinka-gribi-242x242.jpg"
+		},
+		{
+			"category": "Паста",
+			"slug": "lazania-miasna",
+			"name": "Лазанья м'ясна",
+			"imageUrl": "https://samogon.org/image/cache/catalog/p_p/pasta/lazanja-2020-242x242.jpg"
+		},
+		{
+			"category": "М'ясо та риба",
+			"slug": "kachyna-nizhka-konfi-z-sousom-z-madery",
+			"name": "Качина ніжка конфі з соусом з мадери",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/mjasoiriba/%D0%BA%D0%B0%D1%87%D0%B8%D0%BD%D0%B0%20%D0%BD%D1%96%D0%B6%D0%BA%D0%B0_%D0%BF%D0%BB%D0%B0%D1%88%D0%BA%D0%B0-242x242.png"
+		},
+		{
+			"category": "М'ясо та риба",
+			"slug": "medaliony-z-bilymy-hrybamy",
+			"name": "Медальйони з білими грибами",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/mjasoiriba/%D0%9C%D0%95%D0%94%D0%90%D0%9B%D0%AC%D0%99%D0%9E%D0%9D%D0%98-242x242.png"
+		},
+		{
+			"category": "М'ясо та риба",
+			"slug": "file-okunia-v-sousi-berblan",
+			"name": "Філе окуня в соусі берблан",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/mjasoiriba/%D1%84%D1%96%D0%BB%D0%B5%20%D0%BE%D0%BA%D1%83%D0%BD%D1%8F-242x242.jpg"
+		},
+		{
+			"category": "М'ясо та риба",
+			"slug": "kurcha-z-kartopliano-syrnym-piure",
+			"name": "Курча з картопляно-сирним пюре",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/mjasoiriba/%D0%BA%D1%83%D1%80%D1%87%D0%B0%20%D0%B7%20%D0%BF%D1%8E%D1%80%D0%B5_05.09.23-242x242.jpg"
+		},
+		{
+			"category": "М'ясо та риба",
+			"slug": "kuriachi-nahetsy",
+			"name": "Курячі нагетси",
+			"imageUrl": "https://samogon.org/image/cache/catalog/dostavka-produktiv/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B1%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B8(13)-242x242.png"
+		},
+		{
+			"category": "М'ясо та риба",
+			"slug": "kartopliani-dipy",
+			"name": "Картопляні діпи",
+			"imageUrl": "https://samogon.org/image/cache/catalog/dostavka-produktiv/%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D0%BF%D0%BB%D1%8F%D0%BD%D1%96%20%D0%B4%D1%96%D0%BF%D0%B8-242x242.jpg"
+		},
+		{
+			"category": "М'ясо та риба",
+			"slug": "kartoplia-fri",
+			"name": "Картопля фрі",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/mjasoiriba/%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D0%BF%D0%BB%D1%8F%20%D1%84%D1%80%D1%96_28.12.23-242x242.jpg"
+		},
+		{
+			"category": "М'ясо та риба",
+			"slug": "midii-bliu-chiz",
+			"name": "Мідії блю чіз",
+			"imageUrl": "https://samogon.org/image/cache/catalog/p_p/mjaso-ta-riba/midiyi-blju-chiz-242x242.jpg"
+		},
+		{
+			"category": "М'ясо та риба",
+			"slug": "kartoplia-z-rozmarynom",
+			"name": "Картопля з розмарином",
+			"imageUrl": "https://samogon.org/image/cache/catalog/p_p/mjaso-ta-riba/kartoplja-zrozmarinom-2022-242x242.jpg"
+		},
+		{
+			"category": "Перші страви",
+			"slug": "krem-sup-kartoplianyi",
+			"name": "Крем-суп картопляний",
+			"imageUrl": "https://samogon.org/image/cache/catalog/p_p/supi/kremsup-kartopljanij-2022-242x242.jpg"
+		},
+		{
+			"category": "Перші страви",
+			"slug": "bulion-kuriachyi",
+			"name": "Бульйон курячий",
+			"imageUrl": "https://samogon.org/image/cache/catalog/p_p/supi/buljon-2021-242x242.jpg"
+		},
+		{
+			"category": "Перші страви",
+			"slug": "krem-sup-z-bilykh-hrybiv",
+			"name": "Крем-суп з білих грибів",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/pershistravi/%D0%BA%D1%80%D0%B5%D0%BC%20%D1%81%D1%83%D0%BF%20%D0%B7%20%D0%B1%D1%96%D0%BB%D0%B8%D1%85%20%D0%B3%D1%80%D0%B8%D0%B1%D1%96%D0%B2_04.03.24-242x242.jpg"
+		},
+		{
+			"category": "Перші страви",
+			"slug": "tomatnyi-krem-sup",
+			"name": "Томатний крем-суп",
+			"imageUrl": "https://samogon.org/image/cache/catalog/p_p/supi/sup-tomatnij-242x242.jpg"
+		},
+		{
+			"category": "Перші страви",
+			"slug": "tom-iam",
+			"name": "Том ям",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/pershistravi/%D1%82%D0%BE%D0%BC%20%D1%8F%D0%BC%20%D0%B7%20%D0%BA%D1%80%D0%B5%D0%B2%D0%B5%D1%82%D0%BA%D0%B0%D0%BC%D0%B8-20-242x242.jpg"
+		},
+		{
+			"category": "Перші страви",
+			"slug": "fokacho-z-motsareloiu-ta-sousom-barbekiu",
+			"name": "Фокачо з моцарелою та соусом барбекю",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/mjasoiriba/%D0%A4%D0%BE%D0%BA%D0%B0%D1%87%D0%B0_%D1%84%D0%BB%D0%B0%D0%BC%D1%96%D0%BD%D0%B3%D0%BE-242x242.png"
+		},
+		{
+			"category": "Перші страви",
+			"slug": "chiabata",
+			"name": "Чіабата",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/pershistravi/chiabata-242x242.jpg"
+		},
+		{
+			"category": "Перші страви",
+			"slug": "fokacho-z-parmezanom-ta-sousom-pesto",
+			"name": "Фокачо з пармезаном та соусом песто",
+			"imageUrl": "https://samogon.org/image/cache/catalog/%D0%94%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0%2029/%D1%81%D0%B0%D0%BB%D0%B0%D1%82%D0%B8%20%D1%96%20%D0%B7%D0%B0%D0%BA%D1%83%D1%81%D0%BA%D0%B8/1013(7)-242x242.png"
+		},
+		{
+			"category": "Десерти",
+			"slug": "medivnyk",
+			"name": "Медівник",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/deserti/%D0%BC%D0%B5%D0%B4%D1%96%D0%B2%D0%BD%D0%B8%D0%BA%20(2)-242x242.jpg"
+		},
+		{
+			"category": "Десерти",
+			"slug": "panakota",
+			"name": "Панакота",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/deserti/%D0%BF%D0%B0%D0%BD%D0%B0%D0%BA%D0%BE%D1%82%D0%B0_%D0%BF%D0%B0%D1%81%D1%82%D0%B0%D0%B0-242x242.jpg"
+		},
+		{
+			"category": "Десерти",
+			"slug": "tyramisu",
+			"name": "Тирамісу",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/deserti/%D1%82%D0%B8%D1%80%D0%B0%D0%BC%D1%96%D1%81%D1%83-242x242.jpg"
+		},
+		{
+			"category": "Десерти",
+			"slug": "chyzkeik",
+			"name": "Чизкейк",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/deserti/%D1%87%D0%B8%D0%B7%D0%BA%D0%B5%D0%B9%D0%BA-242x242.jpg"
+		},
+		{
+			"category": "Десерти",
+			"slug": "polunychne-tyramisu",
+			"name": "Полуничне тирамісу",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/deserti/%D1%82%D1%96%D1%80%D0%B0%D0%BC%D1%96%D1%81%D1%83_%D0%BF%D0%BE%D0%BB%D1%83%D0%BD%D0%B8%D1%86%D1%8F-242x242.png"
+		},
+		{
+			"category": "Десерти",
+			"slug": "shokoladnyi-fondan",
+			"name": "Шоколадний фондан",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/deserti/%D1%84%D0%BE%D0%BD%D0%B4%D0%B0%D0%BD_%D1%84%D0%BB%D0%B0%D0%BC%D1%96%D0%BD%D0%B3%D0%BE-242x242.png"
+		},
+		{
+			"category": "Соки",
+			"slug": "sik-orhanichnyi-tomatnyi-1l",
+			"name": "Сік органічний томатний 1л",
+			"imageUrl": "https://samogon.org/image/cache/catalog/napoi/%D1%81%D1%96%D0%BA%20%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%BD%D0%B8%D0%B9-242x242.jpg"
+		},
+		{
+			"category": "Соки",
+			"slug": "sik-orhanichnyi-iabluchnyi-1l",
+			"name": "Сік органічний яблучний 1л",
+			"imageUrl": "https://samogon.org/image/cache/catalog/napoi/%D1%81%D1%96%D0%BA%20%D1%8F%D0%B1%D0%BB%D1%83%D1%87%D0%BD%D0%B8%D0%B9%D0%B9-242x242.jpg"
+		},
+		{
+			"category": "Соки",
+			"slug": "sik-orhanichnyi-vyshnevyi-1l",
+			"name": "Сік органічний вишневий 1л",
+			"imageUrl": "https://samogon.org/image/cache/catalog/napoi/%D1%81%D1%96%D0%BA%20%D0%B2%D0%B8%D1%88%D0%BD%D0%B5%D0%B2%D0%B8%D0%B9%D0%B9-242x242.jpg"
+		},
+		{
+			"category": "Соки",
+			"slug": "sik-sytsyliiskyi-1l",
+			"name": "Сік сицилійський 1л",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B1%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B8(12)-242x242.png"
+		},
+		{
+			"category": "Соки",
+			"slug": "sik-tomat-1l",
+			"name": "Сік томат 1л",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B1%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B8(13)-242x242.png"
+		},
+		{
+			"category": "Соки",
+			"slug": "sik-vyshnia-1l",
+			"name": "Сік вишня 1л",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B1%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B8(7)-242x242.png"
+		},
+		{
+			"category": "Соки",
+			"slug": "sik-multyvitamin-1l",
+			"name": "Сік мультивітамін 1л",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B1%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B8(11)-242x242.png"
+		},
+		{
+			"category": "Квас та bubble tea",
+			"slug": "kvas-iabluchnyi-orhanichnyi-1l",
+			"name": "Квас яблучний органічний 1л",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%9A%D0%B2%D0%B0%D1%81_%D1%8F%D0%BB%D0%B1%D1%83%D1%87%D0%BD%D0%B8%D0%B9_1%D0%BB_%D1%84%D0%BB%D0%B0%D0%BC%D1%96%D0%BD%D0%B3%D0%BE-242x242.png"
+		},
+		{
+			"category": "Квас та bubble tea",
+			"slug": "bubble-tea-manho-marakuiia",
+			"name": "Bubble tea манго-маракуйя",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%B1%D0%B0%D0%B1%D0%BB%D1%82%D1%96%D0%BC%20%D0%BC%D0%B0%D1%80%D0%B0%D0%BA%D1%83%D0%B9%D1%8F-242x242.jpg"
+		},
+		{
+			"category": "Квас та bubble tea",
+			"slug": "bubble-tea-sunytsia-lichi",
+			"name": "Bubble tea суниця-лічі",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%B1%D0%B0%D0%B1%D0%BB%D1%82%D1%96%20%D1%81%D1%83%D0%BD%D0%B8%D1%86%D1%8F-242x242.jpg"
+		},
+		{
+			"category": "Напої та вода",
+			"slug": "pepsi-0-5l",
+			"name": "Pepsi 0,5л",
+			"imageUrl": "https://samogon.org/image/cache/catalog/kovcheg/%D0%9D%D0%B0%D0%BF%D0%BE%D1%97/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B1%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B8(202)-242x242.png"
+		},
+		{
+			"category": "Напої та вода",
+			"slug": "pepsi-0-75l",
+			"name": "Pepsi 0.75л",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B1%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B8(31)-242x242.png"
+		},
+		{
+			"category": "Напої та вода",
+			"slug": "lymonad-klasychnyi",
+			"name": "Лимонад класичний",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%BA%D0%BB%D0%B0%D1%81%D0%B8%D1%87%D0%BD%D0%B8%D0%B9-10-242x242.jpg"
+		},
+		{
+			"category": "Напої та вода",
+			"slug": "lymonad-smorodyna-bazylik",
+			"name": "Лимонад смородина-базилік",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D1%81%D0%BC%D0%BE%D1%80%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0-%D0%B1%D0%B0%D0%B7%D0%B8%D0%BB%D1%96%D0%BA-10-242x242.jpg"
+		},
+		{
+			"category": "Напої та вода",
+			"slug": "lymonad-tropichnyi",
+			"name": "Лимонад тропічний",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D1%82%D1%80%D0%BE%D0%BF%D1%96%D1%87%D0%BD%D0%B8%D0%B9-10-242x242.jpg"
+		},
+		{
+			"category": "Напої та вода",
+			"slug": "mokhito-b-a",
+			"name": "Мохіто б/а",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%BC%D0%BE%D1%85%D1%96%D1%82%D0%BE%20%D0%B1_%D0%B0-10-242x242.jpg"
+		},
+		{
+			"category": "Напої та вода",
+			"slug": "kokteil-spritz-b-a",
+			"name": "Коктейль Spritz б/а",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%B0%D0%BF%D0%B5%D1%80%D0%BE%D0%BB%D1%8C-10-242x242.jpg"
+		},
+		{
+			"category": "Напої та вода",
+			"slug": "voda-shveps-0-25l",
+			"name": "Вода Швепс 0.25л",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/ee1feeb2-8db2-42e8-b2f7-e586137a9da1.png(2)-242x242.png"
+		},
+		{
+			"category": "Напої та вода",
+			"slug": "morshynska-0-3l",
+			"name": "Моршинська 0,3л",
+			"imageUrl": "https://samogon.org/image/cache/catalog/%D0%BC%D0%BE%D1%80%D1%88%D0%B8%D0%BD%D1%81%D1%8C%D0%BA%D0%B0%20%D0%B3%D0%B0%D0%B7-242x242.png"
+		},
+		{
+			"category": "Напої та вода",
+			"slug": "medinici-0-3l",
+			"name": "Medinici 0,3л",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B1%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B8(46)-242x242.png"
+		},
+		{
+			"category": "Кава",
+			"slug": "flet-uait",
+			"name": "Флет уайт",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%BA%D0%B0%D0%B2%D0%B0%20%D0%B2%20%D1%81%D0%BA%D0%BB%D1%8F%D0%BD%D1%86%D1%96-242x242.png"
+		},
+		{
+			"category": "Кава",
+			"slug": "espreso",
+			"name": "Еспресо",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%B5%D1%81%D0%BF%D1%80%D0%B5%D1%81%D1%81%D0%BE-242x242.png"
+		},
+		{
+			"category": "Кава",
+			"slug": "kapuchyno",
+			"name": "Капучино",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%BA%D0%B0%D0%BF%D1%83%D1%87%D0%B8%D0%BD%D0%BE-242x242.png"
+		},
+		{
+			"category": "Кава",
+			"slug": "kapuchyno-na-kokosovomu-molotsi",
+			"name": "Капучино на кокосовому молоці",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%BA%D0%B0%D0%BF%D1%83%D1%87%D0%B8%D0%BD%D0%BE-242x242.png"
+		},
+		{
+			"category": "Кава",
+			"slug": "late",
+			"name": "Лате",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%BB%D0%B0%D1%82%D0%B5-242x242.png"
+		},
+		{
+			"category": "Кава",
+			"slug": "late-rafaello",
+			"name": "Лате рафаелло",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%BB%D0%B0%D1%82%D0%B5-242x242.png"
+		},
+		{
+			"category": "Гарячі напої та чай",
+			"slug": "kakao-z-khmarynkamy",
+			"name": "Какао з хмаринками",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%BA%D0%B0%D0%BA%D0%B0%D0%BE_%D0%BC%D0%B0%D1%80%D1%88%D0%BC%D0%B5%D0%BB%D0%BE%D1%83-242x242.png"
+		},
+		{
+			"category": "Гарячі напої та чай",
+			"slug": "oblipykhovo-malynovyi-chai",
+			"name": "Обліпихово-малиновий чай",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D1%87%D0%B0%D0%B9_%D1%87%D0%B0%D0%B9%D0%BD%D0%B8%D0%BA_%D0%BE%D1%80%D0%B0%D0%BD%D0%B6-242x242.png"
+		},
+		{
+			"category": "Гарячі напої та чай",
+			"slug": "chai-iahidnyi",
+			"name": "Чай ягідний",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D1%87%D0%B0%D0%B9_%D1%87%D0%B0%D0%B9%D0%BD%D0%B8%D0%BA_%D1%80%D0%BE%D0%B6%D0%B5%D0%B2%D0%B8%D0%B9-242x242.png"
+		},
+		{
+			"category": "Гарячі напої та чай",
+			"slug": "chai-z-karpatskymy-travamy",
+			"name": "Чай з карпатськими травами",
+			"imageUrl": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D1%87%D0%B0%D0%B9_%D1%87%D0%B0%D0%B9%D0%BD%D0%B8%D0%BA_%D1%82%D1%80%D0%B0%D0%B2%D1%8F%D0%BD%D0%B8%D0%B9-242x242.png"
+		}
+	]
+}

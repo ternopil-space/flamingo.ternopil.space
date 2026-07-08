@@ -7,10 +7,18 @@
 		<a
 			translate
 			[translate]="{ ariaLabel: 'Перейти на головну сторінку' }"
-			class="inline-flex items-center text-xs font-semibold tracking-[0.18em] text-[var(--c-text-secondary)] uppercase"
+			class="inline-flex items-center gap-2 text-xs font-semibold tracking-[0.18em] text-[var(--c-text-secondary)] uppercase"
 			routerLink="/"
 		>
-			{{ company.name }}
+			<img
+				class="h-14 w-14 object-contain"
+				ngSrc="logo.png"
+				[alt]="company.name"
+				width="180"
+				height="180"
+				priority
+			/>
+			<span>{{ company.name }}</span>
 		</a>
 
 		<div class="flex items-center gap-2">

@@ -24,7 +24,7 @@ export const companyProfile: CompanyProfile = {
 	lang: _stringOrFallback(rawCompanyProfile.lang, 'uk'),
 	locale: _stringOrFallback(rawCompanyProfile.locale, 'uk_UA'),
 	siteUrl: _trimTrailingSlash(_stringOrFallback(rawCompanyProfile.siteUrl)),
-	logo: _stringOrFallback(rawCompanyProfile.logo, '/logo.webp'),
+	logo: _stringOrFallback(rawCompanyProfile.logo, '/logo.png'),
 	phone: _stringOrFallback(rawCompanyProfile.phone),
 	email: _stringOrFallback(rawCompanyProfile.email),
 	address: _stringOrFallback(rawCompanyProfile.address),
@@ -32,6 +32,7 @@ export const companyProfile: CompanyProfile = {
 	defaultSeo: _normalizeSeoMetadata(rawCompanyProfile.defaultSeo, rawCompanyProfile.name),
 	pageSeo: _normalizePageSeo(rawCompanyProfile.pageSeo),
 	structuredData: _normalizeStructuredData(rawCompanyProfile.structuredData),
+	custom: rawCompanyProfile.custom,
 };
 
 export const companyTranslateVars = {
@@ -63,7 +64,7 @@ function _normalizeSeoMetadata(
 		keywords: _stringArrayOrFallback(metadata?.keywords),
 		author: _stringOrFallback(metadata?.author, _stringOrFallback(companyName, 'Horeca')),
 		robots: _stringOrFallback(metadata?.robots, 'index, follow'),
-		image: _stringOrFallback(metadata?.image, '/logo.webp'),
+		image: _stringOrFallback(metadata?.image, '/logo.png'),
 		type: _stringOrFallback(metadata?.type, 'website'),
 		twitterCard: _stringOrFallback(metadata?.twitterCard, 'summary_large_image'),
 	};

@@ -55,12 +55,12 @@ interface LoyaltyPageData {
 }
 
 const LOYALTY_TRANSLATION_PATH = '/data/loyalty/i18n';
-const BENEFIT_ICONS = ['cake', 'local_cafe', 'sell', 'hotel', 'SPA', 'event', 'groups'];
+const BENEFIT_ICONS = ['cake', 'local_cafe', 'sell', 'local_pizza', 'restaurant_menu', 'event', 'groups'];
 const REWARD_ICONS = [
 	'restaurant',
-	'hotel',
+	'local_pizza',
 	'local_cafe',
-	'SPA',
+	'restaurant_menu',
 	'event_available',
 	'group_add',
 	'celebration',

@@ -12,7 +12,6 @@ import { ProductService } from '@wawjs/ngx-horeca';
 import { ProfileService } from '@wawjs/ngx-horeca';
 import { QuestService } from '@wawjs/ngx-horeca';
 import { ReviewService } from '@wawjs/ngx-horeca';
-import { RoomService } from '@wawjs/ngx-horeca';
 
 const HOME_TRANSLATION_PATH = '/data/home/i18n';
 
@@ -46,11 +45,10 @@ export class HomeComponent {
 	private readonly _profileService = inject(ProfileService);
 	private readonly _questService = inject(QuestService);
 	private readonly _reviewService = inject(ReviewService);
-	private readonly _roomService = inject(RoomService);
 
 	protected readonly company = companyProfile;
 	protected readonly horecaHighlights = [
-		'Ресторани, кафе, готелі, бари та кейтерингові команди можуть показати головне в одному місці.',
+		'Ресторани, кафе, піцерії, бари та кейтерингові команди можуть показати головне в одному місці.',
 		'Гості можуть перейти від знайомства до дії через меню, контекст закладу, відгуки та контактні опції.',
 		'Статичні SEO-дружні сторінки роблять ключову інформацію про бізнес легкою для перегляду на комп\'ютері й телефоні.',
 	];
@@ -63,7 +61,6 @@ export class HomeComponent {
 		const profile = this._profileService.profiles()[0];
 		const quest = this._questService.quests()[0];
 		const review = this._reviewService.reviews()[0];
-		const room = this._roomService.rooms()[0];
 		const previews: Array<FeaturePreview | null> = [
 			article
 				? {
@@ -74,19 +71,6 @@ export class HomeComponent {
 						itemRoute: `/article/${article.slug}`,
 						allRoute: '/articles',
 						seeAllLabel: 'Переглянути всі статті',
-					}
-				: null,
-			room
-				? {
-						eyebrow: 'Номер',
-						title: room.name,
-						summary: room.description,
-						meta: room.price,
-						itemRoute: `/room/${room.slug}`,
-						allRoute: '/rooms',
-						seeAllLabel: 'Переглянути всі номери',
-						imageSrc: room.image,
-						imageAlt: room.imageAlt,
 					}
 				: null,
 			discount
@@ -191,7 +175,6 @@ export class HomeComponent {
 				'/data/profile/i18n',
 				'/data/quest/i18n',
 				'/data/review/i18n',
-				'/data/room/i18n',
 			], { language });
 		});
 	}

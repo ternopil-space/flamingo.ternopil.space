@@ -19,7 +19,6 @@ export class NavigationComponent {
 		{ label: 'Питання', icon: 'help', route: '/questions' },
 		{ label: 'Правила', icon: 'gavel', route: '/rules' },
 
-		{ label: 'Номери', icon: 'hotel', route: '/rooms' },
 		{ label: 'Знижки', icon: 'local_offer', route: '/discounts' },
 
 		{ label: 'Команда', icon: 'group', route: '/team' },
@@ -31,7 +30,6 @@ export class NavigationComponent {
 		{ label: 'Події', icon: 'event', route: '/events' },
 		{ label: 'Квести', icon: 'map', route: '/quests' },
 
-		{ label: 'SPA', icon: 'SPA', route: '/spa' },
 		{ label: 'Лояльність', icon: 'workspace_premium', route: '/loyalty' },
 
 		{ label: 'З собою', icon: 'takeout_dining', route: '/takeaway' },

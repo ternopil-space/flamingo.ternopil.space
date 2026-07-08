@@ -15,9 +15,9 @@
 			</h1>
 			<p class="mt-2 max-w-[42rem] text-sm leading-6 text-[var(--c-text-muted)]">
 				<span
-					[translate]="'Демо-дані для шаблону: телефон, email, адреса, месенджери та соціальні платформи для HoReCa бізнесу.'"
+					[translate]="'Телефон, адреса, графік роботи.'"
 					>{{
-						'Демо-дані для шаблону: телефон, email, адреса, месенджери та соціальні платформи для HoReCa бізнесу.'
+						'Телефон, адреса, графік роботи.'
 					}}</span
 				>
 			</p>
@@ -49,63 +49,17 @@
 							<p class="mt-2 text-lg font-semibold text-[var(--c-text-secondary)]">
 								{{ company.phone }}
 							</p>
-							<p class="mt-2 text-sm leading-6 text-[var(--c-text-muted)]">
-								<span
-									[translate]="'Демо-номер телефону для бронювання столика, доставки або уточнення деталей.'"
-									>{{
-										'Демо-номер телефону для бронювання столика, доставки або уточнення деталей.'
-									}}</span
-								>
-							</p>
 						</div>
 					</div>
 				</a>
 
 				<a
 					class="contact-card block rounded-[1.1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-4 shadow-[var(--shadow-sm)] transition-transform duration-200 hover:-translate-y-0.5"
-					[href]="companyEmailHref"
-					translate
-					[translate]="{ ariaLabel: 'Написати Horeca на email' }"
-					[vars]="companyVars"
-				>
-					<div class="flex items-start gap-4">
-						<span
-							class="icon-wrap mt-1 inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-full text-xl font-semibold"
-							aria-hidden="true"
-						>
-							@
-						</span>
-
-						<div class="min-w-0">
-							<p
-								class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
-							>
-								<span [translate]="'Електронна пошта'">{{ 'Електронна пошта' }}</span>
-							</p>
-							<p
-								class="mt-2 break-all text-lg font-semibold text-[var(--c-text-secondary)]"
-							>
-								{{ company.email }}
-							</p>
-							<p class="mt-2 text-sm leading-6 text-[var(--c-text-muted)]">
-								<span
-									[translate]="'Демо-email для запитів щодо подій, святкувань і партнерства.'"
-									>{{
-										'Демо-email для запитів щодо подій, святкувань і партнерства.'
-									}}</span
-								>
-							</p>
-						</div>
-					</div>
-				</a>
-
-				<a
-					class="contact-card block rounded-[1.1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-4 shadow-[var(--shadow-sm)] transition-transform duration-200 hover:-translate-y-0.5"
-					href="https://example.com/horeca-demo/maps"
+					[href]="companyMapsHref"
 					target="_blank"
 					rel="noreferrer nofollow"
 					translate
-					[translate]="{ ariaLabel: 'Відкрити демо-адресу Horeca на мапі' }"
+					[translate]="{ ariaLabel: 'Відкрити адресу на мапі' }"
 				>
 					<div class="flex items-start gap-4">
 						<span
@@ -124,15 +78,7 @@
 							<p
 								class="mt-2 text-lg font-semibold leading-7 text-[var(--c-text-secondary)]"
 							>
-								вул. Гостинна, 10, Кам'янець-Подільський
-							</p>
-							<p class="mt-2 text-sm leading-6 text-[var(--c-text-muted)]">
-								<span
-									[translate]="'Демо-адреса для ресторану, кафе, готелю або кейтерингового бізнесу.'"
-									>{{
-										'Демо-адреса для ресторану, кафе, готелю або кейтерингового бізнесу.'
-									}}</span
-								>
+								{{ company.address }}
 							</p>
 						</div>
 					</div>
@@ -146,7 +92,7 @@
 				<div class="relative text-center">
 					<img
 						class="mx-auto h-auto w-[11rem] drop-shadow-[0_14px_30px_rgba(0,0,0,0.16)] sm:w-[12.5rem]"
-						ngSrc="logo.webp"
+						ngSrc="logo.png"
 						[alt]="company.name"
 						width="720"
 						height="720"
@@ -160,48 +106,20 @@
 				</div>
 			</div>
 
-			<div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-1">
-				<a
-					class="contact-card block rounded-[1.1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-4 shadow-[var(--shadow-sm)] transition-transform duration-200 hover:-translate-y-0.5"
-					href="https://example.com/horeca-demo/telegram"
-					target="_blank"
-					rel="noreferrer nofollow"
-					translate
-					[translate]="{ ariaLabel: 'Відкрити демо Telegram Horeca' }"
-				>
-					<p class="text-sm font-semibold text-[var(--c-text-secondary)]">Telegram</p>
-					<p class="mt-2 text-sm leading-6 text-[var(--c-text-muted)]">@horeca_demo</p>
-				</a>
-
-				<a
-					class="contact-card block rounded-[1.1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-4 shadow-[var(--shadow-sm)] transition-transform duration-200 hover:-translate-y-0.5"
-					href="https://example.com/horeca-demo/viber"
-					target="_blank"
-					rel="noreferrer nofollow"
-					translate
-					[translate]="{ ariaLabel: 'Відкрити демо Viber Horeca' }"
-					[vars]="companyVars"
-				>
-					<p class="text-sm font-semibold text-[var(--c-text-secondary)]">Viber</p>
-					<p class="mt-2 text-sm leading-6 text-[var(--c-text-muted)]">
-						{{ company.phone }}
-					</p>
-				</a>
-
-				<a
-					class="contact-card block rounded-[1.1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-4 shadow-[var(--shadow-sm)] transition-transform duration-200 hover:-translate-y-0.5"
-					href="https://example.com/horeca-demo/whatsapp"
-					target="_blank"
-					rel="noreferrer nofollow"
-					translate
-					[translate]="{ ariaLabel: 'Відкрити демо WhatsApp Horeca' }"
-					[vars]="companyVars"
-				>
-					<p class="text-sm font-semibold text-[var(--c-text-secondary)]">WhatsApp</p>
-					<p class="mt-2 text-sm leading-6 text-[var(--c-text-muted)]">
-						{{ company.phone }}
-					</p>
-				</a>
+			<div class="rounded-[1.1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-4 shadow-[var(--shadow-sm)]">
+				<p class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]">
+					<span [translate]="'Графік роботи'">{{ 'Графік роботи' }}</span>
+				</p>
+				<dl class="mt-3 divide-y divide-[var(--c-border)]">
+					@for (entry of workingHours; track entry.day) {
+						<div class="flex items-center justify-between py-2 text-sm">
+							<dt class="font-semibold text-[var(--c-text-secondary)]">
+								<span [translate]="entry.day">{{ entry.day }}</span>
+							</dt>
+							<dd class="font-semibold text-white">{{ entry.hours }}</dd>
+						</div>
+					}
+				</dl>
 			</div>
 		</div>
 
@@ -298,203 +216,6 @@
 				</div>
 			</form>
 
-			<div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-				<a
-					class="social-card flex min-h-[9rem] flex-col justify-between rounded-[1.1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-4 shadow-[var(--shadow-sm)] transition-transform duration-200 hover:-translate-y-0.5"
-					href="https://example.com/horeca-demo/instagram"
-					target="_blank"
-					rel="noreferrer nofollow"
-					translate
-					[translate]="{ ariaLabel: 'Відкрити демо Instagram Horeca' }"
-				>
-					<p
-						class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
-					>
-						Instagram
-					</p>
-					<p class="mt-3 text-sm leading-6 text-[var(--c-text-muted)]">@horeca.demo</p>
-				</a>
-
-				<a
-					class="social-card flex min-h-[9rem] flex-col justify-between rounded-[1.1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-4 shadow-[var(--shadow-sm)] transition-transform duration-200 hover:-translate-y-0.5"
-					href="https://example.com/horeca-demo/facebook"
-					target="_blank"
-					rel="noreferrer nofollow"
-					translate
-					[translate]="{ ariaLabel: 'Відкрити демо Facebook Horeca' }"
-				>
-					<p
-						class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
-					>
-						Facebook
-					</p>
-					<p class="mt-3 text-sm leading-6 text-[var(--c-text-muted)]">/horeca.demo</p>
-				</a>
-
-				<a
-					class="social-card flex min-h-[9rem] flex-col justify-between rounded-[1.1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-4 shadow-[var(--shadow-sm)] transition-transform duration-200 hover:-translate-y-0.5"
-					href="https://example.com/horeca-demo/tiktok"
-					target="_blank"
-					rel="noreferrer nofollow"
-					translate
-					[translate]="{ ariaLabel: 'Відкрити демо TikTok Horeca' }"
-				>
-					<p
-						class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
-					>
-						TikTok
-					</p>
-					<p class="mt-3 text-sm leading-6 text-[var(--c-text-muted)]">@horeca.demo</p>
-				</a>
-
-				<a
-					class="social-card flex min-h-[9rem] flex-col justify-between rounded-[1.1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-4 shadow-[var(--shadow-sm)] transition-transform duration-200 hover:-translate-y-0.5"
-					href="https://example.com/horeca-demo/youtube"
-					target="_blank"
-					rel="noreferrer nofollow"
-					translate
-					[translate]="{ ariaLabel: 'Відкрити демо YouTube Horeca' }"
-				>
-					<p
-						class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
-					>
-						YouTube
-					</p>
-					<p class="mt-3 text-sm leading-6 text-[var(--c-text-muted)]">@horeca-demo</p>
-				</a>
-
-				<a
-					class="social-card flex min-h-[9rem] flex-col justify-between rounded-[1.1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-4 shadow-[var(--shadow-sm)] transition-transform duration-200 hover:-translate-y-0.5"
-					href="https://example.com/horeca-demo/threads"
-					target="_blank"
-					rel="noreferrer nofollow"
-					translate
-					[translate]="{ ariaLabel: 'Відкрити демо Threads Horeca' }"
-				>
-					<p
-						class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
-					>
-						Threads
-					</p>
-					<p class="mt-3 text-sm leading-6 text-[var(--c-text-muted)]">@horeca.demo</p>
-				</a>
-
-				<a
-					class="social-card flex min-h-[9rem] flex-col justify-between rounded-[1.1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-4 shadow-[var(--shadow-sm)] transition-transform duration-200 hover:-translate-y-0.5"
-					href="https://example.com/horeca-demo/x"
-					target="_blank"
-					rel="noreferrer nofollow"
-					translate
-					[translate]="{ ariaLabel: 'Відкрити демо X Horeca' }"
-				>
-					<p
-						class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
-					>
-						X
-					</p>
-					<p class="mt-3 text-sm leading-6 text-[var(--c-text-muted)]">@horeca_demo</p>
-				</a>
-
-				<a
-					class="social-card flex min-h-[9rem] flex-col justify-between rounded-[1.1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-4 shadow-[var(--shadow-sm)] transition-transform duration-200 hover:-translate-y-0.5"
-					href="https://example.com/horeca-demo/linkedin"
-					target="_blank"
-					rel="noreferrer nofollow"
-					translate
-					[translate]="{ ariaLabel: 'Відкрити демо LinkedIn Horeca' }"
-				>
-					<p
-						class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
-					>
-						LinkedIn
-					</p>
-					<p class="mt-3 text-sm leading-6 text-[var(--c-text-muted)]">Horeca Demo</p>
-				</a>
-
-				<a
-					class="social-card flex min-h-[9rem] flex-col justify-between rounded-[1.1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-4 shadow-[var(--shadow-sm)] transition-transform duration-200 hover:-translate-y-0.5"
-					href="https://example.com/horeca-demo/pinterest"
-					target="_blank"
-					rel="noreferrer nofollow"
-					translate
-					[translate]="{ ariaLabel: 'Відкрити демо Pinterest Horeca' }"
-				>
-					<p
-						class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
-					>
-						Pinterest
-					</p>
-					<p class="mt-3 text-sm leading-6 text-[var(--c-text-muted)]">horeca-demo</p>
-				</a>
-
-				<a
-					class="social-card flex min-h-[9rem] flex-col justify-between rounded-[1.1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-4 shadow-[var(--shadow-sm)] transition-transform duration-200 hover:-translate-y-0.5"
-					href="https://example.com/horeca-demo/google-business"
-					target="_blank"
-					rel="noreferrer nofollow"
-					translate
-					[translate]="{ ariaLabel: 'Відкрити демо Google Business Horeca' }"
-				>
-					<p
-						class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
-					>
-						Google Business
-					</p>
-					<p class="mt-3 text-sm leading-6 text-[var(--c-text-muted)]">Horeca Demo</p>
-				</a>
-
-				<a
-					class="social-card flex min-h-[9rem] flex-col justify-between rounded-[1.1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-4 shadow-[var(--shadow-sm)] transition-transform duration-200 hover:-translate-y-0.5"
-					href="https://example.com/horeca-demo/tripadvisor"
-					target="_blank"
-					rel="noreferrer nofollow"
-					translate
-					[translate]="{ ariaLabel: 'Відкрити демо Tripadvisor Horeca' }"
-				>
-					<p
-						class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
-					>
-						Tripadvisor
-					</p>
-					<p class="mt-3 text-sm leading-6 text-[var(--c-text-muted)]">Horeca Demo</p>
-				</a>
-
-				<a
-					class="social-card flex min-h-[9rem] flex-col justify-between rounded-[1.1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-4 shadow-[var(--shadow-sm)] transition-transform duration-200 hover:-translate-y-0.5"
-					href="https://example.com/horeca-demo/bolt-food"
-					target="_blank"
-					rel="noreferrer nofollow"
-					translate
-					[translate]="{ ariaLabel: 'Відкрити демо Bolt Food Horeca' }"
-				>
-					<p
-						class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
-					>
-						Bolt Food
-					</p>
-					<p class="mt-3 text-sm leading-6 text-[var(--c-text-muted)]">
-						<span [translate]="'Доставка'">{{ 'Доставка' }}</span>
-					</p>
-				</a>
-
-				<a
-					class="social-card flex min-h-[9rem] flex-col justify-between rounded-[1.1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-4 shadow-[var(--shadow-sm)] transition-transform duration-200 hover:-translate-y-0.5"
-					href="https://example.com/horeca-demo/glovo"
-					target="_blank"
-					rel="noreferrer nofollow"
-					translate
-					[translate]="{ ariaLabel: 'Відкрити демо Glovo Horeca' }"
-				>
-					<p
-						class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
-					>
-						Glovo
-					</p>
-					<p class="mt-3 text-sm leading-6 text-[var(--c-text-muted)]">
-						<span [translate]="'Доставка'">{{ 'Доставка' }}</span>
-					</p>
-				</a>
-			</div>
 		</div>
 	</section>
 </main>

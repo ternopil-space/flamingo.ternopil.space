@@ -33,13 +33,13 @@
 				</h1>
 			</div>
 
-			<div class="grid gap-3 p-3 sm:grid-cols-2 sm:p-4 lg:grid-cols-3">
+			<div class="columns-1 gap-3 p-3 sm:columns-2 sm:p-4 lg:columns-3">
 				@for (exhibit of exhibits(); track exhibit.slug) {
 					<figure
-						class="overflow-hidden rounded-[1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)]"
+						class="mb-3 break-inside-avoid overflow-hidden rounded-[1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)]"
 					>
 						<app-image
-							imageClass="h-72 w-full object-cover sm:h-80"
+							imageClass="h-auto w-full object-contain"
 							[src]="exhibit.src"
 							translate [translate]="{ alt: exhibit.alt }"
 							[openLabel]="'Відкрити фото на весь екран'"

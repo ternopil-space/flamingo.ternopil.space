@@ -14,7 +14,6 @@ import { ProductService } from '@wawjs/ngx-horeca';
 import { QuestionService } from '@wawjs/ngx-horeca';
 import { QuestService } from '@wawjs/ngx-horeca';
 import { ReviewService } from '@wawjs/ngx-horeca';
-import { RoomService } from '@wawjs/ngx-horeca';
 import { RuleService } from '@wawjs/ngx-horeca';
 import { BOOTSTRAP_STATE_KEY } from './bootstrap.const';
 import { environment } from '../../../environments/environment';
@@ -31,7 +30,6 @@ import {
 	fallbackQuestions,
 	fallbackQuests,
 	fallbackReviews,
-	fallbackRooms,
 	fallbackRules,
 } from './fallback-data';
 import { BootstrapData } from './bootstrap.interface';
@@ -55,7 +53,6 @@ export class BootstrapService {
 	private _questionService = inject(QuestionService);
 	private _questService = inject(QuestService);
 	private _reviewService = inject(ReviewService);
-	private _roomService = inject(RoomService);
 	private _ruleService = inject(RuleService);
 	private _discountService = inject(DiscountService);
 	private _fallbackDataApplied = false;
@@ -94,7 +91,6 @@ export class BootstrapService {
 				this._questionService.finishLoading();
 				this._questService.finishLoading();
 				this._reviewService.finishLoading();
-				this._roomService.finishLoading();
 				this._ruleService.finishLoading();
 				this._discountService.finishLoading();
 			}
@@ -124,7 +120,6 @@ export class BootstrapService {
 		this._questionService.resolveQuestions(data.questions);
 		this._questService.resolveQuests(data.quests);
 		this._reviewService.resolveReviews(data.reviews);
-		this._roomService.resolveRooms(data.rooms);
 		this._ruleService.resolveRules(data.rules);
 		this._discountService.resolveDiscounts(data.discounts);
 	}
@@ -147,7 +142,6 @@ export class BootstrapService {
 		this._questionService.setFallbackQuestions(fallbackQuestions);
 		this._questService.setFallbackQuests(fallbackQuests);
 		this._reviewService.setFallbackReviews(fallbackReviews);
-		this._roomService.setFallbackRooms(fallbackRooms);
 		this._ruleService.setFallbackRules(fallbackRules);
 		this._discountService.setFallbackDiscounts(fallbackDiscounts);
 	}
@@ -168,7 +162,6 @@ export class BootstrapService {
 		this._questionService.finishLoading();
 		this._questService.finishLoading();
 		this._reviewService.finishLoading();
-		this._roomService.finishLoading();
 		this._ruleService.finishLoading();
 		this._discountService.finishLoading();
 	}

@@ -3,6 +3,7 @@
 	"version": "22.0.0",
 	"scripts": {
 		"start": "ng serve",
+		"watch:menu-images": "node scripts/watch-menu-images.mjs",
 		"build": "ng build --configuration=production && node tools/seo/generate-static-seo.mjs"
 	},
 	"dependencies": {

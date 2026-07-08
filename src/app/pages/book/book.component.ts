@@ -6,7 +6,7 @@ import { firstValueFrom } from 'rxjs';
 import { ContactService } from '../../feature/contact/contact.service';
 import { companyProfile } from '../../feature/company/company.data';
 
-type BookingKind = 'столик' | 'номер' | 'SPA';
+type BookingKind = 'столик';
 
 interface BookingRequest {
 	kind: BookingKind;
@@ -52,20 +52,6 @@ export class BookComponent {
 			icon: 'restaurant',
 			route: '/menu',
 			description: 'Забронюйте столик і перегляньте страви перед візитом.',
-		},
-		{
-			value: 'номер',
-			label: 'Номер',
-			icon: 'hotel',
-			route: '/rooms',
-			description: 'Дізнайтеся про доступні номери та послуги для гостей.',
-		},
-		{
-			value: 'SPA',
-			label: 'SPA',
-			icon: 'SPA',
-			route: '/spa',
-			description: 'Заплануйте wellness-візит, масаж, сауну або відновлення.',
 		},
 	];
 	protected readonly submittedRequest = signal<BookingRequest | null>(null);

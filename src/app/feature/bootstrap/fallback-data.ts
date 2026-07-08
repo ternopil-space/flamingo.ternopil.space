@@ -10,7 +10,6 @@ import profilesData from '../../../data/profile/profiles.json';
 import questionsData from '../../../data/question/question.json';
 import questsData from '../../../data/quest/quests.json';
 import reviewsData from '../../../data/review/reviews.json';
-import roomsData from '../../../data/room/rooms.json';
 import rulesData from '../../../data/rule/rules.json';
 import { companyProfile } from '../company/company.data';
 import { Article } from '@wawjs/ngx-horeca';
@@ -24,7 +23,6 @@ import { Profile } from '@wawjs/ngx-horeca';
 import { Question } from '@wawjs/ngx-horeca';
 import { Quest } from '@wawjs/ngx-horeca';
 import { Review } from '@wawjs/ngx-horeca';
-import { Room } from '@wawjs/ngx-horeca';
 import { Rule } from '@wawjs/ngx-horeca';
 
 interface DishDetail {
@@ -51,7 +49,6 @@ export const fallbackProfiles = profilesData as Profile[];
 export const fallbackQuestions = questionsData as Question[];
 export const fallbackQuests = questsData as Quest[];
 export const fallbackReviews = reviewsData as Review[];
-export const fallbackRooms = roomsData as Room[];
 export const fallbackRules = rulesData as Rule[];
 
 export const articleSlugs = fallbackArticles.map((article) => article.slug);
@@ -63,7 +60,6 @@ export const productSlugs = fallbackProducts.map((product) => product.slug);
 export const profileSlugs = fallbackProfiles.map((profile) => profile.slug);
 export const questSlugs = fallbackQuests.map((quest) => quest.slug);
 export const reviewSlugs = fallbackReviews.map((review) => review.slug);
-export const roomSlugs = fallbackRooms.map((room) => room.slug);
 
 const _articlesBySlug = new Map(fallbackArticles.map((article) => [article.slug, article]));
 const _discountsBySlug = new Map(fallbackDiscounts.map((discount) => [discount.slug, discount]));
@@ -73,7 +69,6 @@ const _productsBySlug = new Map(fallbackProducts.map((product) => [product.slug,
 const _profilesBySlug = new Map(fallbackProfiles.map((profile) => [profile.slug, profile]));
 const _questsBySlug = new Map(fallbackQuests.map((quest) => [quest.slug, quest]));
 const _reviewsBySlug = new Map(fallbackReviews.map((review) => [review.slug, review]));
-const _roomsBySlug = new Map(fallbackRooms.map((room) => [room.slug, room]));
 const _categoriesBySlug = new Map(
 	fallbackDishCategories.map((category) => [category.slug, category] as const),
 );
@@ -123,8 +118,4 @@ export function findFallbackQuestBySlug(slug: string) {
 
 export function findFallbackReviewBySlug(slug: string) {
 	return _reviewsBySlug.get(slug) ?? fallbackReviews[0] ?? null;
-}
-
-export function findFallbackRoomBySlug(slug: string) {
-	return _roomsBySlug.get(slug) ?? fallbackRooms[0] ?? null;
 }

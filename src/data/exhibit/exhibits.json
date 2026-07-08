@@ -1,17 +1,37 @@
 [
 	{
-		"slug": "horeca-bar-service-photo",
-		"src": "gallery/demo-1.webp",
-		"alt": "Фото барного обслуговування Horeca"
+		"slug": "flamingo-restaurant-photo-1",
+		"src": "gallery/photo_1.jpg",
+		"alt": "Фото ресторану Фламінго"
 	},
 	{
-		"slug": "horeca-hotel-reception-photo-1",
-		"src": "gallery/demo-2.webp",
-		"alt": "Фото рецепції готелю Horeca"
+		"slug": "flamingo-restaurant-photo-2",
+		"src": "gallery/photo_2.jpg",
+		"alt": "Фото ресторану Фламінго"
 	},
 	{
-		"slug": "horeca-hotel-reception-photo-2",
-		"src": "gallery/demo-3.webp",
-		"alt": "Фото рецепції готелю Horeca"
+		"slug": "flamingo-restaurant-photo-3",
+		"src": "gallery/photo_3.jpg",
+		"alt": "Фото ресторану Фламінго"
+	},
+	{
+		"slug": "flamingo-restaurant-photo-4",
+		"src": "gallery/photo_4.jpg",
+		"alt": "Фото ресторану Фламінго"
+	},
+	{
+		"slug": "flamingo-restaurant-photo-5",
+		"src": "gallery/photo_5.jpg",
+		"alt": "Фото ресторану Фламінго"
+	},
+	{
+		"slug": "flamingo-restaurant-photo-6",
+		"src": "gallery/photo_6.jpg",
+		"alt": "Фото ресторану Фламінго"
+	},
+	{
+		"slug": "flamingo-restaurant-photo-7",
+		"src": "gallery/photo_7.jpg",
+		"alt": "Фото ресторану Фламінго"
 	}
 ]

@@ -5,7 +5,6 @@ import { TranslateDirective } from '@wawjs/ngx-translate';
 import { firstValueFrom } from 'rxjs';
 import { ContactService } from '../../feature/contact/contact.service';
 import {
-	companyEmailHref,
 	companyPhoneHref,
 	companyProfile,
 	companyTranslateVars,
@@ -14,6 +13,11 @@ import {
 interface SocialContactRequest {
 	phone: string;
 	message: string;
+}
+
+interface WorkingHoursEntry {
+	day: string;
+	hours: string;
 }
 
 const initialSocialContactRequest = (phone = ''): SocialContactRequest => ({
@@ -36,7 +40,9 @@ export class SocialsComponent {
 	protected readonly company = companyProfile;
 	protected readonly companyVars = companyTranslateVars;
 	protected readonly companyPhoneHref = companyPhoneHref;
-	protected readonly companyEmailHref = companyEmailHref;
+	protected readonly companyMapsHref = 'https://maps.app.goo.gl/R9UwWSG6NUiVn9eg6';
+	protected readonly workingHours = (companyProfile.custom?.['workingHours'] ??
+		[]) as WorkingHoursEntry[];
 	protected readonly contactRequest = signal(
 		initialSocialContactRequest(this._contactService.getSavedPhone()),
 	);

@@ -54,8 +54,7 @@ export class App {
 			if (
 				path.startsWith('/dish/') ||
 				path.startsWith('/discount/') ||
-				path.startsWith('/review/') ||
-				path.startsWith('/room/')
+				path.startsWith('/review/')
 			) {
 				return;
 			}
@@ -78,11 +77,9 @@ const _pageTitleKeys: Record<string, string> = {
 	'/': companyProfile.name,
 	'/menu': 'Меню',
 	'/about': 'Про нас',
-	'/spa': 'SPA',
 	'/favorites': 'Обране',
 	'/seasonal': 'Сезонні пропозиції',
 	'/daily': "Меню дня",
-	'/rooms': 'Номери',
 	'/navigation': 'Навігація',
 	'/gallery': 'Галерея',
 	'/discounts': 'Знижки',

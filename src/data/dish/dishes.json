@@ -1,46 +1,2414 @@
 [
 	{
-		"slug": "homemade-syrnyky-with-sour-cream",
+		"slug": "anchousy-z-tomatamy-pelati",
+		"categorySlug": "nuovo-italiano",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/%D1%96%D1%82%D0%B0%D0%BB%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%B0%20%D0%B2%D0%B5%D1%81%D0%BD%D0%B0/38-242x242.png",
+		"name": "Анчоуси з томатами пелаті",
+		"description": "Анчоуси з томатами пелаті — страва з меню Фламінго.",
+		"price": 282,
+		"labels": [
+			"Закуска",
+			"1 порція"
+		],
+		"fullDescription": "Анчоуси з томатами пелаті. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 10,
+		"caloriesKcal": 280,
+		"portion": "1 порція",
+		"allergens": [
+			"риба та морепродукти"
+		]
+	},
+	{
+		"slug": "olyvky-z-sytsylii",
+		"categorySlug": "nuovo-italiano",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/%D1%96%D1%82%D0%B0%D0%BB%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%B0%20%D0%B2%D0%B5%D1%81%D0%BD%D0%B0/34-242x242.png",
+		"name": "Оливки з Сицилії",
+		"description": "Оливки з Сицилії — страва з меню Фламінго.",
+		"price": 264,
+		"labels": [
+			"Закуска",
+			"1 порція"
+		],
+		"fullDescription": "Оливки з Сицилії. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 10,
+		"caloriesKcal": 280,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "artyshoky-z-kremovym-maskarpone",
+		"categorySlug": "nuovo-italiano",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/%D1%96%D1%82%D0%B0%D0%BB%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%B0%20%D0%B2%D0%B5%D1%81%D0%BD%D0%B0/33-242x242.png",
+		"name": "Артишоки з кремовим маскарпоне",
+		"description": "Артишоки з кремовим маскарпоне — страва з меню Фламінго.",
+		"price": 293,
+		"labels": [
+			"Закуска",
+			"1 порція"
+		],
+		"fullDescription": "Артишоки з кремовим маскарпоне. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 10,
+		"caloriesKcal": 280,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "parma-chiken",
+		"categorySlug": "nuovo-italiano",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/%D1%96%D1%82%D0%B0%D0%BB%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%B0%20%D0%B2%D0%B5%D1%81%D0%BD%D0%B0/40-242x242.png",
+		"name": "Парма чікен",
+		"description": "Парма чікен — страва з меню Фламінго.",
+		"price": 316,
+		"labels": [
+			"Закуска",
+			"1 порція"
+		],
+		"fullDescription": "Парма чікен. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 10,
+		"caloriesKcal": 280,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "mitboly-mama-miia",
+		"categorySlug": "nuovo-italiano",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/%D1%96%D1%82%D0%B0%D0%BB%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%B0%20%D0%B2%D0%B5%D1%81%D0%BD%D0%B0/%D0%BC%D1%96%D1%82%D0%B1%D0%BE%D0%BB%D0%B8-242x242.png",
+		"name": "Мітболи мама мія!",
+		"description": "Мітболи мама мія! — страва з меню Фламінго.",
+		"price": 326,
+		"labels": [
+			"Закуска",
+			"1 порція"
+		],
+		"fullDescription": "Мітболи мама мія!. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 10,
+		"caloriesKcal": 280,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "italiiskyi-snidanok",
 		"categorySlug": "breakfasts",
-		"image": "/dish/homemade-syrnyky-with-sour-cream.webp",
-		"name": "Домашні сирники зі сметаною",
-		"description": "Рум'яні сирники, подані теплими зі сметаною.",
-		"price": 101,
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/snidanku/%D1%81%D0%BD%D1%96%D0%B4%D0%B0%D0%BD%D0%BE%D0%BA_%D0%B0%D0%BD%D0%B3%D0%BB-242x242.png",
+		"name": "Італійський сніданок",
+		"description": "Італійський сніданок — страва з меню Фламінго.",
+		"price": 297,
 		"labels": [
 			"Сніданок",
-			"200 г"
+			"1 порція"
 		],
-		"fullDescription": "Ніжні домашні сирники з приємною сирною текстурою, обсмажені до золотистої скоринки та подані зі сметаною. Традиційний солодкий сніданок із домашнім настроєм.",
-		"suggested": [
-			"cappuccino"
-		],
+		"fullDescription": "Італійський сніданок. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
 		"cookTimeMinutes": 12,
-		"caloriesKcal": 301,
-		"portion": "200 г",
+		"caloriesKcal": 380,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "flafi-omlet-z-krevetkamy",
+		"categorySlug": "breakfasts",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/snidanku/%D1%81%D0%BD%D1%96%D0%B4%D0%B0%D0%BD%D0%BE%D0%BA_%D0%B7%D0%BA%D1%80%D0%B8%D0%B2%D0%B5%D1%82%D0%BA%D0%BE%D1%8E-242x242.png",
+		"name": "Флафі омлет з креветками",
+		"description": "Флафі омлет з креветками — страва з меню Фламінго.",
+		"price": 314,
+		"labels": [
+			"Сніданок",
+			"1 порція"
+		],
+		"fullDescription": "Флафі омлет з креветками. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 12,
+		"caloriesKcal": 380,
+		"portion": "1 порція",
+		"allergens": [
+			"риба та морепродукти",
+			"яйця"
+		]
+	},
+	{
+		"slug": "flafi-omlet-z-lososem",
+		"categorySlug": "breakfasts",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/snidanku/%D1%81%D0%BD%D1%96%D0%B4%D0%B0%D0%BD%D0%BE%D0%BA_%D0%BB%D0%BE%D1%81%D0%BE%D1%81%D1%8C-242x242.png",
+		"name": "Флафі омлет з лососем",
+		"description": "Флафі омлет з лососем — страва з меню Фламінго.",
+		"price": 312,
+		"labels": [
+			"Сніданок",
+			"1 порція"
+		],
+		"fullDescription": "Флафі омлет з лососем. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 12,
+		"caloriesKcal": 380,
+		"portion": "1 порція",
+		"allergens": [
+			"риба та морепродукти",
+			"яйця"
+		]
+	},
+	{
+		"slug": "flafi-omlet-z-mitbolamy",
+		"categorySlug": "breakfasts",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/%D1%96%D1%82%D0%B0%D0%BB%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%B0%20%D0%B2%D0%B5%D1%81%D0%BD%D0%B0/39-242x242.png",
+		"name": "Флафі омлет з мітболами",
+		"description": "Флафі омлет з мітболами — страва з меню Фламінго.",
+		"price": 296,
+		"labels": [
+			"Сніданок",
+			"1 порція"
+		],
+		"fullDescription": "Флафі омлет з мітболами. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 12,
+		"caloriesKcal": 380,
+		"portion": "1 порція",
+		"allergens": [
+			"яйця"
+		]
+	},
+	{
+		"slug": "avokado-tost-z-lososem",
+		"categorySlug": "breakfasts",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/snidanku/32-242x242.png",
+		"name": "Авокадо тост з лососем",
+		"description": "Авокадо тост з лососем — страва з меню Фламінго.",
+		"price": 369,
+		"labels": [
+			"Сніданок",
+			"1 порція"
+		],
+		"fullDescription": "Авокадо тост з лососем. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 12,
+		"caloriesKcal": 380,
+		"portion": "1 порція",
+		"allergens": [
+			"риба та морепродукти"
+		]
+	},
+	{
+		"slug": "shakshuka-z-chorizo",
+		"categorySlug": "breakfasts",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/%D1%96%D1%82%D0%B0%D0%BB%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%B0%20%D0%B2%D0%B5%D1%81%D0%BD%D0%B0/1013(5)-242x242.png",
+		"name": "Шакшука з чорізо",
+		"description": "Шакшука з чорізо — страва з меню Фламінго.",
+		"price": 287,
+		"labels": [
+			"Сніданок",
+			"1 порція"
+		],
+		"fullDescription": "Шакшука з чорізо. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 12,
+		"caloriesKcal": 380,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "syrnyky-po-italiisky-z-solenoiu-karamelliu",
+		"categorySlug": "breakfasts",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/snidanku/%D1%81%D0%B8%D1%80%D0%BD%D0%B8%D0%BA%D0%B8-242x242.jpg",
+		"name": "Сирники по-італійськи з соленою карамеллю",
+		"description": "Сирники по-італійськи з соленою карамеллю — страва з меню Фламінго.",
+		"price": 239,
+		"labels": [
+			"Сніданок",
+			"1 порція"
+		],
+		"fullDescription": "Сирники по-італійськи з соленою карамеллю. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 12,
+		"caloriesKcal": 380,
+		"portion": "1 порція",
 		"allergens": [
 			"молоко"
 		]
 	},
 	{
-		"slug": "cappuccino",
-		"categorySlug": "coffee",
-		"image": "/dish/cappuccino.webp",
-		"name": "Капучино",
-		"description": "Еспресо зі спіненим молоком і ніжним шаром піни.",
-		"price": 61,
+		"slug": "biznes-lanch-ponedilok",
+		"categorySlug": "business-lunch",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/diloviobidi/dilovij-lanch_ponedilok2021-242x242.jpg",
+		"name": "Бізнес-ланч понеділок",
+		"description": "Бізнес-ланч понеділок — страва з меню Фламінго.",
+		"price": 273,
 		"labels": [
-			"Кава",
-			"250 мл"
+			"Бізнес-ланч",
+			"1 порція"
 		],
-		"fullDescription": "Збалансований капучино на основі свіжого еспресо, спіненого молока та ніжної піни. Подається гарячим і добре смакує зі сніданком або десертом.",
-		"suggested": [
-			"homemade-syrnyky-with-sour-cream"
+		"fullDescription": "Бізнес-ланч понеділок. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 550,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "biznes-lanch-vivtorok",
+		"categorySlug": "business-lunch",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/diloviobidi/vivtorok-21.06-242x242.jpg",
+		"name": "Бізнес-ланч вівторок",
+		"description": "Бізнес-ланч вівторок — страва з меню Фламінго.",
+		"price": 273,
+		"labels": [
+			"Бізнес-ланч",
+			"1 порція"
 		],
-		"cookTimeMinutes": 4,
-		"caloriesKcal": 91,
-		"portion": "250 мл",
+		"fullDescription": "Бізнес-ланч вівторок. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 550,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "biznes-lanch-sereda",
+		"categorySlug": "business-lunch",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/diloviobidi/sereda-21.06-2-242x242.jpg",
+		"name": "Бізнес-ланч середа",
+		"description": "Бізнес-ланч середа — страва з меню Фламінго.",
+		"price": 273,
+		"labels": [
+			"Бізнес-ланч",
+			"1 порція"
+		],
+		"fullDescription": "Бізнес-ланч середа. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 550,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "biznes-lanch-chetver",
+		"categorySlug": "business-lunch",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/diloviobidi/chetver-21.06-242x242.jpg",
+		"name": "Бізнес-ланч четвер",
+		"description": "Бізнес-ланч четвер — страва з меню Фламінго.",
+		"price": 273,
+		"labels": [
+			"Бізнес-ланч",
+			"1 порція"
+		],
+		"fullDescription": "Бізнес-ланч четвер. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 550,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "biznes-lanch-piatnytsia",
+		"categorySlug": "business-lunch",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/diloviobidi/pjatnicja-21.06-242x242.jpg",
+		"name": "Бізнес-ланч п'ятниця",
+		"description": "Бізнес-ланч п'ятниця — страва з меню Фламінго.",
+		"price": 273,
+		"labels": [
+			"Бізнес-ланч",
+			"1 порція"
+		],
+		"fullDescription": "Бізнес-ланч п'ятниця. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 550,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "pasta-z-tefteliamy",
+		"categorySlug": "kids-menu",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/%D1%82%D1%96%D1%84%D1%82%D0%B5%D0%BB%D1%96-242x242.png",
+		"name": "Паста з тефтелями",
+		"description": "Паста з тефтелями — страва з меню Фламінго.",
+		"price": 226,
+		"labels": [
+			"Дитяче меню",
+			"1 порція"
+		],
+		"fullDescription": "Паста з тефтелями. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 12,
+		"caloriesKcal": 320,
+		"portion": "1 порція",
+		"allergens": [
+			"глютен"
+		]
+	},
+	{
+		"slug": "uliublenyi-bulion",
+		"categorySlug": "kids-menu",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B1%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B8(44)-242x242.png",
+		"name": "Улюблений бульйон",
+		"description": "Улюблений бульйон — страва з меню Фламінго.",
+		"price": 138,
+		"labels": [
+			"Дитяче меню",
+			"1 порція"
+		],
+		"fullDescription": "Улюблений бульйон. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 12,
+		"caloriesKcal": 320,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "kytsia-kytsiunia",
+		"categorySlug": "kids-menu",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/%D0%BA%D0%B8%D1%86%D1%8F-242x242.png",
+		"name": "Киця-кицюня",
+		"description": "Киця-кицюня — страва з меню Фламінго.",
+		"price": 189,
+		"labels": [
+			"Дитяче меню",
+			"1 порція"
+		],
+		"fullDescription": "Киця-кицюня. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 12,
+		"caloriesKcal": 320,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "super-puper",
+		"categorySlug": "kids-menu",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/%D1%81%D1%83%D0%BF%D0%B5%D1%80-%D0%BF%D1%83%D0%BF%D0%B5%D1%80-242x242.png",
+		"name": "Супер-пупер",
+		"description": "Супер-пупер — страва з меню Фламінго.",
+		"price": 228,
+		"labels": [
+			"Дитяче меню",
+			"1 порція"
+		],
+		"fullDescription": "Супер-пупер. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 12,
+		"caloriesKcal": 320,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "hrybochok",
+		"categorySlug": "kids-menu",
+		"image": "https://samogon.org/image/cache/catalog/p_p/pica/img_1758-242x242.png",
+		"name": "Грибочок",
+		"description": "Грибочок — страва з меню Фламінго.",
+		"price": 196,
+		"labels": [
+			"Дитяче меню",
+			"1 порція"
+		],
+		"fullDescription": "Грибочок. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 12,
+		"caloriesKcal": 320,
+		"portion": "1 порція",
+		"allergens": [
+			"риба та морепродукти"
+		]
+	},
+	{
+		"slug": "vinni-pukh",
+		"categorySlug": "kids-menu",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/%D0%BF%D1%96%D1%86%D0%B0/%D0%B2%D1%96%D0%BD%D0%BD%D1%962022-242x242.jpg",
+		"name": "Вінні пух",
+		"description": "Вінні пух — страва з меню Фламінго.",
+		"price": 198,
+		"labels": [
+			"Дитяче меню",
+			"1 порція"
+		],
+		"fullDescription": "Вінні пух. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 12,
+		"caloriesKcal": 320,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "milksheik-bananovyi",
+		"categorySlug": "kids-menu",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%BC%D1%96%D0%BB%D0%BA%D1%88%D0%B5%D0%B9%D0%BA_%D0%BB%D0%B5%D0%B3%D0%BE_%D1%81%D0%B8%D0%BD%D1%96%D0%B9-242x242.jpg",
+		"name": "Мілкшейк банановий",
+		"description": "Мілкшейк банановий — страва з меню Фламінго.",
+		"price": 176,
+		"labels": [
+			"Дитяче меню",
+			"1 порція"
+		],
+		"fullDescription": "Мілкшейк банановий. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 12,
+		"caloriesKcal": 320,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "milksheik-iahidnyi",
+		"categorySlug": "kids-menu",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%BC%D1%96%D0%BB%D0%BA%D1%88%D0%B5%D0%B9%D0%BA_%D0%BB%D0%B5%D0%B3%D0%BE_%D1%80%D0%BE%D0%B7%D0%BE%D0%B2%D0%B8%D0%B9-242x242.jpg",
+		"name": "Мілкшейк ягідний",
+		"description": "Мілкшейк ягідний — страва з меню Фламінго.",
+		"price": 176,
+		"labels": [
+			"Дитяче меню",
+			"1 порція"
+		],
+		"fullDescription": "Мілкшейк ягідний. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 12,
+		"caloriesKcal": 320,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "z-ialovychynoiu-konfi",
+		"categorySlug": "pizza",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/%D0%BF%D1%96%D1%86%D0%B0/%D0%BF%D1%96%D1%86%D0%B0-242x242.png",
+		"name": "З яловичиною конфі",
+		"description": "З яловичиною конфі — страва з меню Фламінго.",
+		"price": 362,
+		"labels": [
+			"Піца",
+			"1 порція"
+		],
+		"fullDescription": "З яловичиною конфі. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 780,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "ukrainska",
+		"categorySlug": "pizza",
+		"image": "https://samogon.org/image/cache/catalog/pizza/img_2051_1-242x242.jpg",
+		"name": "Українська",
+		"description": "Українська — страва з меню Фламінго.",
+		"price": 223,
+		"labels": [
+			"Піца",
+			"1 порція"
+		],
+		"fullDescription": "Українська. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 780,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "karbonara",
+		"categorySlug": "pizza",
+		"image": "https://samogon.org/image/cache/catalog/p_p/pica/korbonara-2020-242x242.jpg",
+		"name": "Карбонара",
+		"description": "Карбонара — страва з меню Фламінго.",
+		"price": 239,
+		"labels": [
+			"Піца",
+			"1 порція"
+		],
+		"fullDescription": "Карбонара. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 780,
+		"portion": "1 порція",
+		"allergens": [
+			"яйця"
+		]
+	},
+	{
+		"slug": "amerykana",
+		"categorySlug": "pizza",
+		"image": "https://samogon.org/image/cache/catalog/pizza/img_1972-242x242.jpg",
+		"name": "Американа",
+		"description": "Американа — страва з меню Фламінго.",
+		"price": 278,
+		"labels": [
+			"Піца",
+			"1 порція"
+		],
+		"fullDescription": "Американа. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 780,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "kaprychoza",
+		"categorySlug": "pizza",
+		"image": "https://samogon.org/image/cache/catalog/p_p/pica/kaprichoza-2020-242x242.jpg",
+		"name": "Капричоза",
+		"description": "Капричоза — страва з меню Фламінго.",
+		"price": 264,
+		"labels": [
+			"Піца",
+			"1 порція"
+		],
+		"fullDescription": "Капричоза. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 780,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "sfornata",
+		"categorySlug": "pizza",
+		"image": "https://samogon.org/image/cache/catalog/pizza/%D0%A1%D1%84%D0%BE%D1%80%D0%BD%D0%B0%D1%82%D0%B0-242x242.jpg",
+		"name": "Сфорната",
+		"description": "Сфорната — страва з меню Фламінго.",
+		"price": 329,
+		"labels": [
+			"Піца",
+			"1 порція"
+		],
+		"fullDescription": "Сфорната. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 780,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "kalobreze",
+		"categorySlug": "pizza",
+		"image": "https://samogon.org/image/cache/catalog/001/kalobreze-242x242.jpg",
+		"name": "Калобрезе",
+		"description": "Калобрезе — страва з меню Фламінго.",
+		"price": 267,
+		"labels": [
+			"Піца",
+			"1 порція"
+		],
+		"fullDescription": "Калобрезе. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 780,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "chotyry-sezony",
+		"categorySlug": "pizza",
+		"image": "https://samogon.org/image/cache/catalog/pizza/chotirisezoni3-242x242.jpg",
+		"name": "Чотири сезони",
+		"description": "Чотири сезони — страва з меню Фламінго.",
+		"price": 279,
+		"labels": [
+			"Піца",
+			"1 порція"
+		],
+		"fullDescription": "Чотири сезони. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 780,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "marharyta",
+		"categorySlug": "pizza",
+		"image": "https://samogon.org/image/cache/catalog/p_p/pica/2022/margarita-24.08.22-1-242x242.jpg",
+		"name": "Маргарита",
+		"description": "Маргарита — страва з меню Фламінго.",
+		"price": 214,
+		"labels": [
+			"Піца",
+			"1 порція"
+		],
+		"fullDescription": "Маргарита. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 780,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "nutella",
+		"categorySlug": "pizza",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/%D0%BF%D1%96%D1%86%D0%B0_%D0%BD%D1%83%D1%82%D0%B5%D0%BB%D0%B0_%D0%BF%D0%BE%D0%BB%D1%83%D0%BD%D0%B8%D1%86%D1%8F%20(2)-242x242.png",
+		"name": "Нутелла",
+		"description": "Нутелла — страва з меню Фламінго.",
+		"price": 246,
+		"labels": [
+			"Піца",
+			"1 порція"
+		],
+		"fullDescription": "Нутелла. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 780,
+		"portion": "1 порція",
+		"allergens": [
+			"горіхи"
+		]
+	},
+	{
+		"slug": "al-salmone",
+		"categorySlug": "pizza",
+		"image": "https://samogon.org/image/cache/catalog/p_p/pica/2022/salmone_virna(2)-242x242.jpg",
+		"name": "Аль сальмоне",
+		"description": "Аль сальмоне — страва з меню Фламінго.",
+		"price": 289,
+		"labels": [
+			"Піца",
+			"1 порція"
+		],
+		"fullDescription": "Аль сальмоне. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 780,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "bavariia",
+		"categorySlug": "pizza",
+		"image": "https://samogon.org/image/cache/catalog/p_p/pica/bavaryja-2020-242x242.jpg",
+		"name": "Баварія",
+		"description": "Баварія — страва з меню Фламінго.",
+		"price": 254,
+		"labels": [
+			"Піца",
+			"1 порція"
+		],
+		"fullDescription": "Баварія. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 780,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "peperoni",
+		"categorySlug": "pizza",
+		"image": "https://samogon.org/image/cache/catalog/pizza/%D0%9F%D0%B0%D0%BF%D0%B5%D1%80%D0%BE%D0%BD%D1%96-242x242.png",
+		"name": "Пепероні",
+		"description": "Пепероні — страва з меню Фламінго.",
+		"price": 275,
+		"labels": [
+			"Піца",
+			"1 порція"
+		],
+		"fullDescription": "Пепероні. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 780,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "podviina-peperoni",
+		"categorySlug": "pizza",
+		"image": "https://samogon.org/image/cache/catalog/pizza/%D0%9F%D0%BE%D0%B4%D0%B2%D1%96%D0%B9%D0%BD%D0%B0%20%D0%BF%D0%B0%D0%BF%D0%B5%D1%80%D0%BE%D0%BD%D1%96%203-242x242.jpg",
+		"name": "Подвійна пепероні",
+		"description": "Подвійна пепероні — страва з меню Фламінго.",
+		"price": 336,
+		"labels": [
+			"Піца",
+			"1 порція"
+		],
+		"fullDescription": "Подвійна пепероні. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 780,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "proshuto",
+		"categorySlug": "pizza",
+		"image": "https://samogon.org/image/cache/catalog/p_p/pica/proshuto2-242x242.jpg",
+		"name": "Прошуто",
+		"description": "Прошуто — страва з меню Фламінго.",
+		"price": 236,
+		"labels": [
+			"Піца",
+			"1 порція"
+		],
+		"fullDescription": "Прошуто. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 780,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "saliami",
+		"categorySlug": "pizza",
+		"image": "https://samogon.org/image/cache/catalog/p_p/pica/saljami-2020-242x242.jpg",
+		"name": "Салямі",
+		"description": "Салямі — страва з меню Фламінго.",
+		"price": 271,
+		"labels": [
+			"Піца",
+			"1 порція"
+		],
+		"fullDescription": "Салямі. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 780,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "tonno",
+		"categorySlug": "pizza",
+		"image": "https://samogon.org/image/cache/catalog/pizza/img_1980-242x242.jpg",
+		"name": "Тонно",
+		"description": "Тонно — страва з меню Фламінго.",
+		"price": 267,
+		"labels": [
+			"Піца",
+			"1 порція"
+		],
+		"fullDescription": "Тонно. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 780,
+		"portion": "1 порція",
+		"allergens": [
+			"риба та морепродукти"
+		]
+	},
+	{
+		"slug": "flaminho",
+		"categorySlug": "pizza",
+		"image": "https://samogon.org/image/cache/catalog/p_p/pica/flamingo-2020-242x242.jpg",
+		"name": "Фламінго",
+		"description": "Фламінго — страва з меню Фламінго.",
+		"price": 332,
+		"labels": [
+			"Піца",
+			"1 порція"
+		],
+		"fullDescription": "Фламінго. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 780,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "chorizo",
+		"categorySlug": "pizza",
+		"image": "https://samogon.org/image/cache/catalog/p_p/pica/chorizo-2020-242x242.jpg",
+		"name": "Чорізо",
+		"description": "Чорізо — страва з меню Фламінго.",
+		"price": 278,
+		"labels": [
+			"Піца",
+			"1 порція"
+		],
+		"fullDescription": "Чорізо. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 780,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "tartufo",
+		"categorySlug": "pizza",
+		"image": "https://samogon.org/image/cache/catalog/001/tartufo-02.08.22-242x242.jpg",
+		"name": "Тартуфо",
+		"description": "Тартуфо — страва з меню Фламінго.",
+		"price": 296,
+		"labels": [
+			"Піца",
+			"1 порція"
+		],
+		"fullDescription": "Тартуфо. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 780,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "havaiska",
+		"categorySlug": "pizza",
+		"image": "https://samogon.org/image/cache/catalog/p_p/pica/2022/gavajska-22.12.22-242x242.jpg",
+		"name": "Гавайська",
+		"description": "Гавайська — страва з меню Фламінго.",
+		"price": 258,
+		"labels": [
+			"Піца",
+			"1 порція"
+		],
+		"fullDescription": "Гавайська. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 780,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "hrybna",
+		"categorySlug": "pizza",
+		"image": "https://samogon.org/image/cache/catalog/p_p/pica/2022/gribna-22.12.22-242x242.jpg",
+		"name": "Грибна",
+		"description": "Грибна — страва з меню Фламінго.",
+		"price": 312,
+		"labels": [
+			"Піца",
+			"1 порція"
+		],
+		"fullDescription": "Грибна. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 780,
+		"portion": "1 порція",
+		"allergens": [
+			"риба та морепродукти"
+		]
+	},
+	{
+		"slug": "kvatro-formadzhi",
+		"categorySlug": "pizza",
+		"image": "https://samogon.org/image/cache/catalog/p_p/pica/kvatroformadzhi(2)-242x242.jpg",
+		"name": "Кватро формаджі",
+		"description": "Кватро формаджі — страва з меню Фламінго.",
+		"price": 274,
+		"labels": [
+			"Піца",
+			"1 порція"
+		],
+		"fullDescription": "Кватро формаджі. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 780,
+		"portion": "1 порція",
 		"allergens": [
 			"молоко"
 		]
+	},
+	{
+		"slug": "polo-kon-formadzhi",
+		"categorySlug": "pizza",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/%D0%BF%D1%96%D1%86%D0%B0/photo_2025-04-16_11-31-43-242x242.jpg",
+		"name": "Поло кон формаджі",
+		"description": "Поло кон формаджі — страва з меню Фламінго.",
+		"price": 283,
+		"labels": [
+			"Піца",
+			"1 порція"
+		],
+		"fullDescription": "Поло кон формаджі. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 780,
+		"portion": "1 порція",
+		"allergens": [
+			"молоко"
+		]
+	},
+	{
+		"slug": "parma",
+		"categorySlug": "pizza",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/%D0%BF%D0%B0%D1%80%D0%BC%D0%B0%20(2)-242x242.jpg",
+		"name": "Парма",
+		"description": "Парма — страва з меню Фламінго.",
+		"price": 306,
+		"labels": [
+			"Піца",
+			"1 порція"
+		],
+		"fullDescription": "Парма. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 780,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "ranch",
+		"categorySlug": "pizza",
+		"image": "https://samogon.org/image/cache/catalog/p_p/pica/ranch2-242x242.jpg",
+		"name": "Ранч",
+		"description": "Ранч — страва з меню Фламінго.",
+		"price": 278,
+		"labels": [
+			"Піца",
+			"1 порція"
+		],
+		"fullDescription": "Ранч. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 780,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "kaltsone-al-forno",
+		"categorySlug": "pizza",
+		"image": "https://samogon.org/image/cache/catalog/p_p/pica/kalcone-242x242.jpg",
+		"name": "Кальцоне аль форно",
+		"description": "Кальцоне аль форно — страва з меню Фламінго.",
+		"price": 236,
+		"labels": [
+			"Піца",
+			"1 порція"
+		],
+		"fullDescription": "Кальцоне аль форно. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 780,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "burher-ukrainskyi",
+		"categorySlug": "burgers",
+		"image": "https://samogon.org/image/cache/catalog/burgeru/ukrayinskij-24.08.22-242x242.jpg",
+		"name": "Бургер український",
+		"description": "Бургер український — страва з меню Фламінго.",
+		"price": 297,
+		"labels": [
+			"Бургер",
+			"1 порція"
+		],
+		"fullDescription": "Бургер український. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 14,
+		"caloriesKcal": 650,
+		"portion": "1 порція",
+		"allergens": [
+			"глютен"
+		]
+	},
+	{
+		"slug": "chizburher-kuriachyi",
+		"categorySlug": "burgers",
+		"image": "https://samogon.org/image/cache/catalog/burgeru/img_1770_kurjachij_700h700-242x242.jpg",
+		"name": "Чізбургер курячий",
+		"description": "Чізбургер курячий — страва з меню Фламінго.",
+		"price": 389,
+		"labels": [
+			"Бургер",
+			"1 порція"
+		],
+		"fullDescription": "Чізбургер курячий. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 14,
+		"caloriesKcal": 650,
+		"portion": "1 порція",
+		"allergens": [
+			"глютен"
+		]
+	},
+	{
+		"slug": "chizburher-ialovychyi",
+		"categorySlug": "burgers",
+		"image": "https://samogon.org/image/cache/catalog/burgeru/img_1762_jalovichij_700h700-242x242.jpg",
+		"name": "Чізбургер яловичий",
+		"description": "Чізбургер яловичий — страва з меню Фламінго.",
+		"price": 314,
+		"labels": [
+			"Бургер",
+			"1 порція"
+		],
+		"fullDescription": "Чізбургер яловичий. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 14,
+		"caloriesKcal": 650,
+		"portion": "1 порція",
+		"allergens": [
+			"глютен"
+		]
+	},
+	{
+		"slug": "meha-syrnyi",
+		"categorySlug": "burgers",
+		"image": "https://samogon.org/image/cache/catalog/stariy_mlyn/2022/solodki-smakotuli/img_1674_mega-sirnij_700h700-242x242.jpg",
+		"name": "Мега сирний",
+		"description": "Мега сирний — страва з меню Фламінго.",
+		"price": 374,
+		"labels": [
+			"Бургер",
+			"1 порція"
+		],
+		"fullDescription": "Мега сирний. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 14,
+		"caloriesKcal": 650,
+		"portion": "1 порція",
+		"allergens": [
+			"молоко"
+		]
+	},
+	{
+		"slug": "kurka-chubaturka",
+		"categorySlug": "burgers",
+		"image": "https://samogon.org/image/cache/catalog/stariy_mlyn/2022/solodki-smakotuli/img_1663_chubaturka_700h700-242x242.jpg",
+		"name": "Курка чубатурка",
+		"description": "Курка чубатурка — страва з меню Фламінго.",
+		"price": 359,
+		"labels": [
+			"Бургер",
+			"1 порція"
+		],
+		"fullDescription": "Курка чубатурка. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 14,
+		"caloriesKcal": 650,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "try-kotlety",
+		"categorySlug": "burgers",
+		"image": "https://samogon.org/image/cache/catalog/stariy_mlyn/2022/solodki-smakotuli/img_1540_tri-kotleti_pljazhnij_700h700-242x242.jpg",
+		"name": "Три котлети",
+		"description": "Три котлети — страва з меню Фламінго.",
+		"price": 398,
+		"labels": [
+			"Бургер",
+			"1 порція"
+		],
+		"fullDescription": "Три котлети. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 14,
+		"caloriesKcal": 650,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "salat-tsezar-z-krevetkamy",
+		"categorySlug": "salads-appetizers",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/salati/cezarzkrevetkami-242x242.jpg",
+		"name": "Салат цезар з креветками",
+		"description": "Салат цезар з креветками — страва з меню Фламінго.",
+		"price": 338,
+		"labels": [
+			"Салат",
+			"1 порція"
+		],
+		"fullDescription": "Салат цезар з креветками. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 10,
+		"caloriesKcal": 320,
+		"portion": "1 порція",
+		"allergens": [
+			"риба та морепродукти"
+		]
+	},
+	{
+		"slug": "salat-tsezar-z-kuriachym-file",
+		"categorySlug": "salads-appetizers",
+		"image": "https://samogon.org/image/cache/catalog/p_p/salati-zakuski/cezar-2021(1)-242x242.jpg",
+		"name": "Салат цезар з курячим філе",
+		"description": "Салат цезар з курячим філе — страва з меню Фламінго.",
+		"price": 276,
+		"labels": [
+			"Салат",
+			"1 порція"
+		],
+		"fullDescription": "Салат цезар з курячим філе. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 10,
+		"caloriesKcal": 320,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "insalata-di-feta",
+		"categorySlug": "salads-appetizers",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/salati/ee1feeb2-8db2-42e8-b2f7-e586137a9da1.png(2)-242x242.png",
+		"name": "Інсалата ді фета",
+		"description": "Інсалата ді фета — страва з меню Фламінго.",
+		"price": 259,
+		"labels": [
+			"Салат",
+			"1 порція"
+		],
+		"fullDescription": "Інсалата ді фета. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 10,
+		"caloriesKcal": 320,
+		"portion": "1 порція",
+		"allergens": [
+			"молоко"
+		]
+	},
+	{
+		"slug": "salat-z-strachatelloiu",
+		"categorySlug": "salads-appetizers",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/salati/%D1%81%D0%B0%D0%BB%D0%B0%D1%82%20%D0%B7%20%D1%81%D1%82%D1%80%D0%B0%D1%87%D0%B0%D1%82%D0%B5%D0%BB%D0%BE%D1%8E-242x242.jpg",
+		"name": "Салат з страчателлою",
+		"description": "Салат з страчателлою — страва з меню Фламінго.",
+		"price": 267,
+		"labels": [
+			"Салат",
+			"1 порція"
+		],
+		"fullDescription": "Салат з страчателлою. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 10,
+		"caloriesKcal": 320,
+		"portion": "1 порція",
+		"allergens": [
+			"молоко"
+		]
+	},
+	{
+		"slug": "insalata-di-vitelo",
+		"categorySlug": "salads-appetizers",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/salati/%D0%B4%D1%96-%D0%B2%D1%96%D1%82%D0%B5%D0%BB%D0%BE-2022-242x242.jpg",
+		"name": "Інсалата ді вітело",
+		"description": "Інсалата ді вітело — страва з меню Фламінго.",
+		"price": 312,
+		"labels": [
+			"Салат",
+			"1 порція"
+		],
+		"fullDescription": "Інсалата ді вітело. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 10,
+		"caloriesKcal": 320,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "teplyi-salat-z-ovochamy-hryl",
+		"categorySlug": "salads-appetizers",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/salati/%D1%82%D0%B5%D0%BF%D0%BB%D0%B8%D0%B9%20%D1%81%D0%B0%D0%BB%D0%B0%D1%82%20%D0%B7%20%D0%BE%D0%B2%D0%BE%D1%87%D0%B0%D0%BC%D0%B8%20%D0%B3%D1%80%D0%B8%D0%BB%D1%8C-242x242.jpg",
+		"name": "Теплий салат з овочами гриль",
+		"description": "Теплий салат з овочами гриль — страва з меню Фламінго.",
+		"price": 278,
+		"labels": [
+			"Салат",
+			"1 порція"
+		],
+		"fullDescription": "Теплий салат з овочами гриль. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 10,
+		"caloriesKcal": 320,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "insalata-di-proshuto-z-pechenoiu-hrusheiu",
+		"categorySlug": "salads-appetizers",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/salati/%D1%81%D0%B0%D0%BB%D0%B0%D1%82%20%D0%B7%20%D0%B3%D1%80%D1%83%D1%88%D0%B5%D1%8E-242x242.png",
+		"name": "Інсалата ді прошуто з печеною грушею",
+		"description": "Інсалата ді прошуто з печеною грушею — страва з меню Фламінго.",
+		"price": 317,
+		"labels": [
+			"Салат",
+			"1 порція"
+		],
+		"fullDescription": "Інсалата ді прошуто з печеною грушею. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 10,
+		"caloriesKcal": 320,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "tartar-z-teliatyny",
+		"categorySlug": "salads-appetizers",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/salati/%D1%82%D0%B0%D1%80%D1%82%D0%B0%D1%80-242x242.jpg",
+		"name": "Тартар з телятини",
+		"description": "Тартар з телятини — страва з меню Фламінго.",
+		"price": 316,
+		"labels": [
+			"Салат",
+			"1 порція"
+		],
+		"fullDescription": "Тартар з телятини. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 10,
+		"caloriesKcal": 320,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "syrno-miasne-plato",
+		"categorySlug": "salads-appetizers",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/salati/%D1%81%D0%B8%D1%80%D0%BD%D0%BE-%D0%BC%D1%8F%D1%81%D0%BD%D0%B5%20%D0%BF%D0%BB%D0%B0%D1%82%D0%BE-242x242.jpg",
+		"name": "Сирно-м'ясне плато",
+		"description": "Сирно-м'ясне плато — страва з меню Фламінго.",
+		"price": 476,
+		"labels": [
+			"Салат",
+			"1 порція"
+		],
+		"fullDescription": "Сирно-м'ясне плато. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 10,
+		"caloriesKcal": 320,
+		"portion": "1 порція",
+		"allergens": [
+			"молоко"
+		]
+	},
+	{
+		"slug": "ravioli-del-plin",
+		"categorySlug": "pasta",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/pasta/%D1%80%D0%B0%D0%B2%D1%96%D0%BE%D0%BB%D1%96_%D0%B4%D0%B5%D0%BB%D1%8C%20%D0%BF%D0%BB%D1%96%D0%BD-242x242.jpg",
+		"name": "Равіолі дель плін",
+		"description": "Равіолі дель плін — страва з меню Фламінго.",
+		"price": 296,
+		"labels": [
+			"Паста",
+			"1 порція"
+		],
+		"fullDescription": "Равіолі дель плін. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 16,
+		"caloriesKcal": 520,
+		"portion": "1 порція",
+		"allergens": [
+			"глютен"
+		]
+	},
+	{
+		"slug": "vau-krevetka",
+		"categorySlug": "pasta",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/pasta/35-242x242.png",
+		"name": "Вау! Креветка",
+		"description": "Вау! Креветка — страва з меню Фламінго.",
+		"price": 354,
+		"labels": [
+			"Паста",
+			"1 порція"
+		],
+		"fullDescription": "Вау! Креветка. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 16,
+		"caloriesKcal": 520,
+		"portion": "1 порція",
+		"allergens": [
+			"риба та морепродукти"
+		]
+	},
+	{
+		"slug": "ravioli-z-hrybamy",
+		"categorySlug": "pasta",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/pasta/ravioli-gribi-7.12.21-242x242.jpg",
+		"name": "Равіолі з грибами",
+		"description": "Равіолі з грибами — страва з меню Фламінго.",
+		"price": 263,
+		"labels": [
+			"Паста",
+			"1 порція"
+		],
+		"fullDescription": "Равіолі з грибами. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 16,
+		"caloriesKcal": 520,
+		"portion": "1 порція",
+		"allergens": [
+			"риба та морепродукти",
+			"глютен"
+		]
+	},
+	{
+		"slug": "uliublene-bolonieze",
+		"categorySlug": "pasta",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/%D1%96%D1%82%D0%B0%D0%BB%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%B0%20%D0%B2%D0%B5%D1%81%D0%BD%D0%B0/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B1%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B8(17)-242x242.png",
+		"name": "Улюблене болоньєзе",
+		"description": "Улюблене болоньєзе — страва з меню Фламінго.",
+		"price": 253,
+		"labels": [
+			"Паста",
+			"1 порція"
+		],
+		"fullDescription": "Улюблене болоньєзе. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 16,
+		"caloriesKcal": 520,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "ravioli-z-syrom",
+		"categorySlug": "pasta",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/pasta/raviolizsyrom-242x242.jpg",
+		"name": "Равіолі з сиром",
+		"description": "Равіолі з сиром — страва з меню Фламінго.",
+		"price": 248,
+		"labels": [
+			"Паста",
+			"1 порція"
+		],
+		"fullDescription": "Равіолі з сиром. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 16,
+		"caloriesKcal": 520,
+		"portion": "1 порція",
+		"allergens": [
+			"молоко",
+			"глютен"
+		]
+	},
+	{
+		"slug": "ravioli-zi-shpynatom-ta-rikotoiu",
+		"categorySlug": "pasta",
+		"image": "https://samogon.org/image/cache/catalog/p_p/pasta/ravoli-shpinat-rikota-242x242.jpg",
+		"name": "Равіолі зі шпинатом та рікотою",
+		"description": "Равіолі зі шпинатом та рікотою — страва з меню Фламінго.",
+		"price": 256,
+		"labels": [
+			"Паста",
+			"1 порція"
+		],
+		"fullDescription": "Равіолі зі шпинатом та рікотою. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 16,
+		"caloriesKcal": 520,
+		"portion": "1 порція",
+		"allergens": [
+			"глютен"
+		]
+	},
+	{
+		"slug": "spaheti-karbonara",
+		"categorySlug": "pasta",
+		"image": "https://samogon.org/image/cache/catalog/p_p/pasta/karbonara-7.12.21-242x242.jpg",
+		"name": "Спагеті карбонара",
+		"description": "Спагеті карбонара — страва з меню Фламінго.",
+		"price": 278,
+		"labels": [
+			"Паста",
+			"1 порція"
+		],
+		"fullDescription": "Спагеті карбонара. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 16,
+		"caloriesKcal": 520,
+		"portion": "1 порція",
+		"allergens": [
+			"яйця",
+			"глютен"
+		]
+	},
+	{
+		"slug": "fetuchini-z-hrybamy-i-shynkoiu",
+		"categorySlug": "pasta",
+		"image": "https://samogon.org/image/cache/catalog/p_p/pasta/fetuchini-shinka-gribi-242x242.jpg",
+		"name": "Фетучіні з грибами і шинкою",
+		"description": "Фетучіні з грибами і шинкою — страва з меню Фламінго.",
+		"price": 283,
+		"labels": [
+			"Паста",
+			"1 порція"
+		],
+		"fullDescription": "Фетучіні з грибами і шинкою. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 16,
+		"caloriesKcal": 520,
+		"portion": "1 порція",
+		"allergens": [
+			"риба та морепродукти",
+			"глютен"
+		]
+	},
+	{
+		"slug": "lazania-miasna",
+		"categorySlug": "pasta",
+		"image": "https://samogon.org/image/cache/catalog/p_p/pasta/lazanja-2020-242x242.jpg",
+		"name": "Лазанья м'ясна",
+		"description": "Лазанья м'ясна — страва з меню Фламінго.",
+		"price": 276,
+		"labels": [
+			"Паста",
+			"1 порція"
+		],
+		"fullDescription": "Лазанья м'ясна. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 16,
+		"caloriesKcal": 520,
+		"portion": "1 порція",
+		"allergens": [
+			"глютен"
+		]
+	},
+	{
+		"slug": "kachyna-nizhka-konfi-z-sousom-z-madery",
+		"categorySlug": "meat-fish",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/mjasoiriba/%D0%BA%D0%B0%D1%87%D0%B8%D0%BD%D0%B0%20%D0%BD%D1%96%D0%B6%D0%BA%D0%B0_%D0%BF%D0%BB%D0%B0%D1%88%D0%BA%D0%B0-242x242.png",
+		"name": "Качина ніжка конфі з соусом з мадери",
+		"description": "Качина ніжка конфі з соусом з мадери — страва з меню Фламінго.",
+		"price": 436,
+		"labels": [
+			"М'ясо та риба",
+			"1 порція"
+		],
+		"fullDescription": "Качина ніжка конфі з соусом з мадери. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 20,
+		"caloriesKcal": 480,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "medaliony-z-bilymy-hrybamy",
+		"categorySlug": "meat-fish",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/mjasoiriba/%D0%9C%D0%95%D0%94%D0%90%D0%9B%D0%AC%D0%99%D0%9E%D0%9D%D0%98-242x242.png",
+		"name": "Медальйони з білими грибами",
+		"description": "Медальйони з білими грибами — страва з меню Фламінго.",
+		"price": 378,
+		"labels": [
+			"М'ясо та риба",
+			"1 порція"
+		],
+		"fullDescription": "Медальйони з білими грибами. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 20,
+		"caloriesKcal": 480,
+		"portion": "1 порція",
+		"allergens": [
+			"риба та морепродукти"
+		]
+	},
+	{
+		"slug": "file-okunia-v-sousi-berblan",
+		"categorySlug": "meat-fish",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/mjasoiriba/%D1%84%D1%96%D0%BB%D0%B5%20%D0%BE%D0%BA%D1%83%D0%BD%D1%8F-242x242.jpg",
+		"name": "Філе окуня в соусі берблан",
+		"description": "Філе окуня в соусі берблан — страва з меню Фламінго.",
+		"price": 362,
+		"labels": [
+			"М'ясо та риба",
+			"1 порція"
+		],
+		"fullDescription": "Філе окуня в соусі берблан. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 20,
+		"caloriesKcal": 480,
+		"portion": "1 порція",
+		"allergens": [
+			"риба та морепродукти"
+		]
+	},
+	{
+		"slug": "kurcha-z-kartopliano-syrnym-piure",
+		"categorySlug": "meat-fish",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/mjasoiriba/%D0%BA%D1%83%D1%80%D1%87%D0%B0%20%D0%B7%20%D0%BF%D1%8E%D1%80%D0%B5_05.09.23-242x242.jpg",
+		"name": "Курча з картопляно-сирним пюре",
+		"description": "Курча з картопляно-сирним пюре — страва з меню Фламінго.",
+		"price": 334,
+		"labels": [
+			"М'ясо та риба",
+			"1 порція"
+		],
+		"fullDescription": "Курча з картопляно-сирним пюре. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 20,
+		"caloriesKcal": 480,
+		"portion": "1 порція",
+		"allergens": [
+			"молоко"
+		]
+	},
+	{
+		"slug": "kuriachi-nahetsy",
+		"categorySlug": "meat-fish",
+		"image": "https://samogon.org/image/cache/catalog/dostavka-produktiv/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B1%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B8(13)-242x242.png",
+		"name": "Курячі нагетси",
+		"description": "Курячі нагетси — страва з меню Фламінго.",
+		"price": 164,
+		"labels": [
+			"М'ясо та риба",
+			"1 порція"
+		],
+		"fullDescription": "Курячі нагетси. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 20,
+		"caloriesKcal": 480,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "kartopliani-dipy",
+		"categorySlug": "meat-fish",
+		"image": "https://samogon.org/image/cache/catalog/dostavka-produktiv/%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D0%BF%D0%BB%D1%8F%D0%BD%D1%96%20%D0%B4%D1%96%D0%BF%D0%B8-242x242.jpg",
+		"name": "Картопляні діпи",
+		"description": "Картопляні діпи — страва з меню Фламінго.",
+		"price": 157,
+		"labels": [
+			"М'ясо та риба",
+			"1 порція"
+		],
+		"fullDescription": "Картопляні діпи. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 20,
+		"caloriesKcal": 480,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "kartoplia-fri",
+		"categorySlug": "meat-fish",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/mjasoiriba/%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D0%BF%D0%BB%D1%8F%20%D1%84%D1%80%D1%96_28.12.23-242x242.jpg",
+		"name": "Картопля фрі",
+		"description": "Картопля фрі — страва з меню Фламінго.",
+		"price": 146,
+		"labels": [
+			"М'ясо та риба",
+			"1 порція"
+		],
+		"fullDescription": "Картопля фрі. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 20,
+		"caloriesKcal": 480,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "midii-bliu-chiz",
+		"categorySlug": "meat-fish",
+		"image": "https://samogon.org/image/cache/catalog/p_p/mjaso-ta-riba/midiyi-blju-chiz-242x242.jpg",
+		"name": "Мідії блю чіз",
+		"description": "Мідії блю чіз — страва з меню Фламінго.",
+		"price": 356,
+		"labels": [
+			"М'ясо та риба",
+			"1 порція"
+		],
+		"fullDescription": "Мідії блю чіз. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 20,
+		"caloriesKcal": 480,
+		"portion": "1 порція",
+		"allergens": [
+			"риба та морепродукти"
+		]
+	},
+	{
+		"slug": "kartoplia-z-rozmarynom",
+		"categorySlug": "meat-fish",
+		"image": "https://samogon.org/image/cache/catalog/p_p/mjaso-ta-riba/kartoplja-zrozmarinom-2022-242x242.jpg",
+		"name": "Картопля з розмарином",
+		"description": "Картопля з розмарином — страва з меню Фламінго.",
+		"price": 159,
+		"labels": [
+			"М'ясо та риба",
+			"1 порція"
+		],
+		"fullDescription": "Картопля з розмарином. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 20,
+		"caloriesKcal": 480,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "krem-sup-kartoplianyi",
+		"categorySlug": "soups",
+		"image": "https://samogon.org/image/cache/catalog/p_p/supi/kremsup-kartopljanij-2022-242x242.jpg",
+		"name": "Крем-суп картопляний",
+		"description": "Крем-суп картопляний — страва з меню Фламінго.",
+		"price": 187,
+		"labels": [
+			"Перша страва",
+			"1 порція"
+		],
+		"fullDescription": "Крем-суп картопляний. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 10,
+		"caloriesKcal": 220,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "bulion-kuriachyi",
+		"categorySlug": "soups",
+		"image": "https://samogon.org/image/cache/catalog/p_p/supi/buljon-2021-242x242.jpg",
+		"name": "Бульйон курячий",
+		"description": "Бульйон курячий — страва з меню Фламінго.",
+		"price": 197,
+		"labels": [
+			"Перша страва",
+			"1 порція"
+		],
+		"fullDescription": "Бульйон курячий. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 10,
+		"caloriesKcal": 220,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "krem-sup-z-bilykh-hrybiv",
+		"categorySlug": "soups",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/pershistravi/%D0%BA%D1%80%D0%B5%D0%BC%20%D1%81%D1%83%D0%BF%20%D0%B7%20%D0%B1%D1%96%D0%BB%D0%B8%D1%85%20%D0%B3%D1%80%D0%B8%D0%B1%D1%96%D0%B2_04.03.24-242x242.jpg",
+		"name": "Крем-суп з білих грибів",
+		"description": "Крем-суп з білих грибів — страва з меню Фламінго.",
+		"price": 248,
+		"labels": [
+			"Перша страва",
+			"1 порція"
+		],
+		"fullDescription": "Крем-суп з білих грибів. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 10,
+		"caloriesKcal": 220,
+		"portion": "1 порція",
+		"allergens": [
+			"риба та морепродукти"
+		]
+	},
+	{
+		"slug": "tomatnyi-krem-sup",
+		"categorySlug": "soups",
+		"image": "https://samogon.org/image/cache/catalog/p_p/supi/sup-tomatnij-242x242.jpg",
+		"name": "Томатний крем-суп",
+		"description": "Томатний крем-суп — страва з меню Фламінго.",
+		"price": 246,
+		"labels": [
+			"Перша страва",
+			"1 порція"
+		],
+		"fullDescription": "Томатний крем-суп. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 10,
+		"caloriesKcal": 220,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "tom-iam",
+		"categorySlug": "soups",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/pershistravi/%D1%82%D0%BE%D0%BC%20%D1%8F%D0%BC%20%D0%B7%20%D0%BA%D1%80%D0%B5%D0%B2%D0%B5%D1%82%D0%BA%D0%B0%D0%BC%D0%B8-20-242x242.jpg",
+		"name": "Том ям",
+		"description": "Том ям — страва з меню Фламінго.",
+		"price": 359,
+		"labels": [
+			"Перша страва",
+			"1 порція"
+		],
+		"fullDescription": "Том ям. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 10,
+		"caloriesKcal": 220,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "fokacho-z-motsareloiu-ta-sousom-barbekiu",
+		"categorySlug": "soups",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/mjasoiriba/%D0%A4%D0%BE%D0%BA%D0%B0%D1%87%D0%B0_%D1%84%D0%BB%D0%B0%D0%BC%D1%96%D0%BD%D0%B3%D0%BE-242x242.png",
+		"name": "Фокачо з моцарелою та соусом барбекю",
+		"description": "Фокачо з моцарелою та соусом барбекю — страва з меню Фламінго.",
+		"price": 96,
+		"labels": [
+			"Перша страва",
+			"1 порція"
+		],
+		"fullDescription": "Фокачо з моцарелою та соусом барбекю. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 10,
+		"caloriesKcal": 220,
+		"portion": "1 порція",
+		"allergens": [
+			"молоко",
+			"глютен"
+		]
+	},
+	{
+		"slug": "chiabata",
+		"categorySlug": "soups",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/pershistravi/chiabata-242x242.jpg",
+		"name": "Чіабата",
+		"description": "Чіабата — страва з меню Фламінго.",
+		"price": 97,
+		"labels": [
+			"Перша страва",
+			"1 порція"
+		],
+		"fullDescription": "Чіабата. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 10,
+		"caloriesKcal": 220,
+		"portion": "1 порція",
+		"allergens": [
+			"глютен"
+		]
+	},
+	{
+		"slug": "fokacho-z-parmezanom-ta-sousom-pesto",
+		"categorySlug": "soups",
+		"image": "https://samogon.org/image/cache/catalog/%D0%94%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0%2029/%D1%81%D0%B0%D0%BB%D0%B0%D1%82%D0%B8%20%D1%96%20%D0%B7%D0%B0%D0%BA%D1%83%D1%81%D0%BA%D0%B8/1013(7)-242x242.png",
+		"name": "Фокачо з пармезаном та соусом песто",
+		"description": "Фокачо з пармезаном та соусом песто — страва з меню Фламінго.",
+		"price": 98,
+		"labels": [
+			"Перша страва",
+			"1 порція"
+		],
+		"fullDescription": "Фокачо з пармезаном та соусом песто. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 10,
+		"caloriesKcal": 220,
+		"portion": "1 порція",
+		"allergens": [
+			"молоко",
+			"глютен"
+		]
+	},
+	{
+		"slug": "medivnyk",
+		"categorySlug": "desserts",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/deserti/%D0%BC%D0%B5%D0%B4%D1%96%D0%B2%D0%BD%D0%B8%D0%BA%20(2)-242x242.jpg",
+		"name": "Медівник",
+		"description": "Медівник — страва з меню Фламінго.",
+		"price": 217,
+		"labels": [
+			"Десерт",
+			"1 порція"
+		],
+		"fullDescription": "Медівник. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 8,
+		"caloriesKcal": 340,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "panakota",
+		"categorySlug": "desserts",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/deserti/%D0%BF%D0%B0%D0%BD%D0%B0%D0%BA%D0%BE%D1%82%D0%B0_%D0%BF%D0%B0%D1%81%D1%82%D0%B0%D0%B0-242x242.jpg",
+		"name": "Панакота",
+		"description": "Панакота — страва з меню Фламінго.",
+		"price": 184,
+		"labels": [
+			"Десерт",
+			"1 порція"
+		],
+		"fullDescription": "Панакота. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 8,
+		"caloriesKcal": 340,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "tyramisu",
+		"categorySlug": "desserts",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/deserti/%D1%82%D0%B8%D1%80%D0%B0%D0%BC%D1%96%D1%81%D1%83-242x242.jpg",
+		"name": "Тирамісу",
+		"description": "Тирамісу — страва з меню Фламінго.",
+		"price": 238,
+		"labels": [
+			"Десерт",
+			"1 порція"
+		],
+		"fullDescription": "Тирамісу. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 8,
+		"caloriesKcal": 340,
+		"portion": "1 порція",
+		"allergens": [
+			"яйця"
+		]
+	},
+	{
+		"slug": "chyzkeik",
+		"categorySlug": "desserts",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/deserti/%D1%87%D0%B8%D0%B7%D0%BA%D0%B5%D0%B9%D0%BA-242x242.jpg",
+		"name": "Чизкейк",
+		"description": "Чизкейк — страва з меню Фламінго.",
+		"price": 223,
+		"labels": [
+			"Десерт",
+			"1 порція"
+		],
+		"fullDescription": "Чизкейк. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 8,
+		"caloriesKcal": 340,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "polunychne-tyramisu",
+		"categorySlug": "desserts",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/deserti/%D1%82%D1%96%D1%80%D0%B0%D0%BC%D1%96%D1%81%D1%83_%D0%BF%D0%BE%D0%BB%D1%83%D0%BD%D0%B8%D1%86%D1%8F-242x242.png",
+		"name": "Полуничне тирамісу",
+		"description": "Полуничне тирамісу — страва з меню Фламінго.",
+		"price": 226,
+		"labels": [
+			"Десерт",
+			"1 порція"
+		],
+		"fullDescription": "Полуничне тирамісу. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 8,
+		"caloriesKcal": 340,
+		"portion": "1 порція",
+		"allergens": [
+			"яйця"
+		]
+	},
+	{
+		"slug": "shokoladnyi-fondan",
+		"categorySlug": "desserts",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/deserti/%D1%84%D0%BE%D0%BD%D0%B4%D0%B0%D0%BD_%D1%84%D0%BB%D0%B0%D0%BC%D1%96%D0%BD%D0%B3%D0%BE-242x242.png",
+		"name": "Шоколадний фондан",
+		"description": "Шоколадний фондан — страва з меню Фламінго.",
+		"price": 246,
+		"labels": [
+			"Десерт",
+			"1 порція"
+		],
+		"fullDescription": "Шоколадний фондан. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 8,
+		"caloriesKcal": 340,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "sik-orhanichnyi-tomatnyi-1l",
+		"categorySlug": "juices",
+		"image": "https://samogon.org/image/cache/catalog/napoi/%D1%81%D1%96%D0%BA%20%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%BD%D0%B8%D0%B9-242x242.jpg",
+		"name": "Сік органічний томатний 1л",
+		"description": "Сік органічний томатний 1л — страва з меню Фламінго.",
+		"price": 189,
+		"labels": [
+			"Сік",
+			"1 порція"
+		],
+		"fullDescription": "Сік органічний томатний 1л. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 3,
+		"caloriesKcal": 120,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "sik-orhanichnyi-iabluchnyi-1l",
+		"categorySlug": "juices",
+		"image": "https://samogon.org/image/cache/catalog/napoi/%D1%81%D1%96%D0%BA%20%D1%8F%D0%B1%D0%BB%D1%83%D1%87%D0%BD%D0%B8%D0%B9%D0%B9-242x242.jpg",
+		"name": "Сік органічний яблучний 1л",
+		"description": "Сік органічний яблучний 1л — страва з меню Фламінго.",
+		"price": 189,
+		"labels": [
+			"Сік",
+			"1 порція"
+		],
+		"fullDescription": "Сік органічний яблучний 1л. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 3,
+		"caloriesKcal": 120,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "sik-orhanichnyi-vyshnevyi-1l",
+		"categorySlug": "juices",
+		"image": "https://samogon.org/image/cache/catalog/napoi/%D1%81%D1%96%D0%BA%20%D0%B2%D0%B8%D1%88%D0%BD%D0%B5%D0%B2%D0%B8%D0%B9%D0%B9-242x242.jpg",
+		"name": "Сік органічний вишневий 1л",
+		"description": "Сік органічний вишневий 1л — страва з меню Фламінго.",
+		"price": 209,
+		"labels": [
+			"Сік",
+			"1 порція"
+		],
+		"fullDescription": "Сік органічний вишневий 1л. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 3,
+		"caloriesKcal": 120,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "sik-sytsyliiskyi-1l",
+		"categorySlug": "juices",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B1%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B8(12)-242x242.png",
+		"name": "Сік сицилійський 1л",
+		"description": "Сік сицилійський 1л — страва з меню Фламінго.",
+		"price": 193,
+		"labels": [
+			"Сік",
+			"1 порція"
+		],
+		"fullDescription": "Сік сицилійський 1л. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 3,
+		"caloriesKcal": 120,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "sik-tomat-1l",
+		"categorySlug": "juices",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B1%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B8(13)-242x242.png",
+		"name": "Сік томат 1л",
+		"description": "Сік томат 1л — страва з меню Фламінго.",
+		"price": 193,
+		"labels": [
+			"Сік",
+			"1 порція"
+		],
+		"fullDescription": "Сік томат 1л. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 3,
+		"caloriesKcal": 120,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "sik-vyshnia-1l",
+		"categorySlug": "juices",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B1%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B8(7)-242x242.png",
+		"name": "Сік вишня 1л",
+		"description": "Сік вишня 1л — страва з меню Фламінго.",
+		"price": 193,
+		"labels": [
+			"Сік",
+			"1 порція"
+		],
+		"fullDescription": "Сік вишня 1л. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 3,
+		"caloriesKcal": 120,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "sik-multyvitamin-1l",
+		"categorySlug": "juices",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B1%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B8(11)-242x242.png",
+		"name": "Сік мультивітамін 1л",
+		"description": "Сік мультивітамін 1л — страва з меню Фламінго.",
+		"price": 193,
+		"labels": [
+			"Сік",
+			"1 порція"
+		],
+		"fullDescription": "Сік мультивітамін 1л. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 3,
+		"caloriesKcal": 120,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "kvas-iabluchnyi-orhanichnyi-1l",
+		"categorySlug": "specialty-drinks",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%9A%D0%B2%D0%B0%D1%81_%D1%8F%D0%BB%D0%B1%D1%83%D1%87%D0%BD%D0%B8%D0%B9_1%D0%BB_%D1%84%D0%BB%D0%B0%D0%BC%D1%96%D0%BD%D0%B3%D0%BE-242x242.png",
+		"name": "Квас яблучний органічний 1л",
+		"description": "Квас яблучний органічний 1л — страва з меню Фламінго.",
+		"price": 142,
+		"labels": [
+			"Напій",
+			"1 порція"
+		],
+		"fullDescription": "Квас яблучний органічний 1л. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 4,
+		"caloriesKcal": 150,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "bubble-tea-manho-marakuiia",
+		"categorySlug": "specialty-drinks",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%B1%D0%B0%D0%B1%D0%BB%D1%82%D1%96%D0%BC%20%D0%BC%D0%B0%D1%80%D0%B0%D0%BA%D1%83%D0%B9%D1%8F-242x242.jpg",
+		"name": "Bubble tea манго-маракуйя",
+		"description": "Bubble tea манго-маракуйя — страва з меню Фламінго.",
+		"price": 146,
+		"labels": [
+			"Напій",
+			"1 порція"
+		],
+		"fullDescription": "Bubble tea манго-маракуйя. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 4,
+		"caloriesKcal": 150,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "bubble-tea-sunytsia-lichi",
+		"categorySlug": "specialty-drinks",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%B1%D0%B0%D0%B1%D0%BB%D1%82%D1%96%20%D1%81%D1%83%D0%BD%D0%B8%D1%86%D1%8F-242x242.jpg",
+		"name": "Bubble tea суниця-лічі",
+		"description": "Bubble tea суниця-лічі — страва з меню Фламінго.",
+		"price": 146,
+		"labels": [
+			"Напій",
+			"1 порція"
+		],
+		"fullDescription": "Bubble tea суниця-лічі. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 4,
+		"caloriesKcal": 150,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "pepsi-0-5l",
+		"categorySlug": "soft-drinks",
+		"image": "https://samogon.org/image/cache/catalog/kovcheg/%D0%9D%D0%B0%D0%BF%D0%BE%D1%97/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B1%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B8(202)-242x242.png",
+		"name": "Pepsi 0,5л",
+		"description": "Pepsi 0,5л — страва з меню Фламінго.",
+		"price": 69,
+		"labels": [
+			"Напій",
+			"1 порція"
+		],
+		"fullDescription": "Pepsi 0,5л. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 2,
+		"caloriesKcal": 90,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "pepsi-0-75l",
+		"categorySlug": "soft-drinks",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B1%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B8(31)-242x242.png",
+		"name": "Pepsi 0.75л",
+		"description": "Pepsi 0.75л — страва з меню Фламінго.",
+		"price": 98,
+		"labels": [
+			"Напій",
+			"1 порція"
+		],
+		"fullDescription": "Pepsi 0.75л. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 2,
+		"caloriesKcal": 90,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "lymonad-klasychnyi",
+		"categorySlug": "soft-drinks",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%BA%D0%BB%D0%B0%D1%81%D0%B8%D1%87%D0%BD%D0%B8%D0%B9-10-242x242.jpg",
+		"name": "Лимонад класичний",
+		"description": "Лимонад класичний — страва з меню Фламінго.",
+		"price": 96,
+		"labels": [
+			"Напій",
+			"1 порція"
+		],
+		"fullDescription": "Лимонад класичний. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 2,
+		"caloriesKcal": 90,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "lymonad-smorodyna-bazylik",
+		"categorySlug": "soft-drinks",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D1%81%D0%BC%D0%BE%D1%80%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0-%D0%B1%D0%B0%D0%B7%D0%B8%D0%BB%D1%96%D0%BA-10-242x242.jpg",
+		"name": "Лимонад смородина-базилік",
+		"description": "Лимонад смородина-базилік — страва з меню Фламінго.",
+		"price": 96,
+		"labels": [
+			"Напій",
+			"1 порція"
+		],
+		"fullDescription": "Лимонад смородина-базилік. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 2,
+		"caloriesKcal": 90,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "lymonad-tropichnyi",
+		"categorySlug": "soft-drinks",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D1%82%D1%80%D0%BE%D0%BF%D1%96%D1%87%D0%BD%D0%B8%D0%B9-10-242x242.jpg",
+		"name": "Лимонад тропічний",
+		"description": "Лимонад тропічний — страва з меню Фламінго.",
+		"price": 119,
+		"labels": [
+			"Напій",
+			"1 порція"
+		],
+		"fullDescription": "Лимонад тропічний. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 2,
+		"caloriesKcal": 90,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "mokhito-b-a",
+		"categorySlug": "soft-drinks",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%BC%D0%BE%D1%85%D1%96%D1%82%D0%BE%20%D0%B1_%D0%B0-10-242x242.jpg",
+		"name": "Мохіто б/а",
+		"description": "Мохіто б/а — страва з меню Фламінго.",
+		"price": 118,
+		"labels": [
+			"Напій",
+			"1 порція"
+		],
+		"fullDescription": "Мохіто б/а. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 2,
+		"caloriesKcal": 90,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "kokteil-spritz-b-a",
+		"categorySlug": "soft-drinks",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%B0%D0%BF%D0%B5%D1%80%D0%BE%D0%BB%D1%8C-10-242x242.jpg",
+		"name": "Коктейль Spritz б/а",
+		"description": "Коктейль Spritz б/а — страва з меню Фламінго.",
+		"price": 154,
+		"labels": [
+			"Напій",
+			"1 порція"
+		],
+		"fullDescription": "Коктейль Spritz б/а. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 2,
+		"caloriesKcal": 90,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "voda-shveps-0-25l",
+		"categorySlug": "soft-drinks",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/ee1feeb2-8db2-42e8-b2f7-e586137a9da1.png(2)-242x242.png",
+		"name": "Вода Швепс 0.25л",
+		"description": "Вода Швепс 0.25л — страва з меню Фламінго.",
+		"price": 67,
+		"labels": [
+			"Напій",
+			"1 порція"
+		],
+		"fullDescription": "Вода Швепс 0.25л. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 2,
+		"caloriesKcal": 90,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "morshynska-0-3l",
+		"categorySlug": "soft-drinks",
+		"image": "https://samogon.org/image/cache/catalog/%D0%BC%D0%BE%D1%80%D1%88%D0%B8%D0%BD%D1%81%D1%8C%D0%BA%D0%B0%20%D0%B3%D0%B0%D0%B7-242x242.png",
+		"name": "Моршинська 0,3л",
+		"description": "Моршинська 0,3л — страва з меню Фламінго.",
+		"price": 92,
+		"labels": [
+			"Напій",
+			"1 порція"
+		],
+		"fullDescription": "Моршинська 0,3л. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 2,
+		"caloriesKcal": 90,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "medinici-0-3l",
+		"categorySlug": "soft-drinks",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%20%D0%B1%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B8(46)-242x242.png",
+		"name": "Medinici 0,3л",
+		"description": "Medinici 0,3л — страва з меню Фламінго.",
+		"price": 87,
+		"labels": [
+			"Напій",
+			"1 порція"
+		],
+		"fullDescription": "Medinici 0,3л. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 2,
+		"caloriesKcal": 90,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "flet-uait",
+		"categorySlug": "coffee",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%BA%D0%B0%D0%B2%D0%B0%20%D0%B2%20%D1%81%D0%BA%D0%BB%D1%8F%D0%BD%D1%86%D1%96-242x242.png",
+		"name": "Флет уайт",
+		"description": "Флет уайт — страва з меню Фламінго.",
+		"price": 104,
+		"labels": [
+			"Кава",
+			"1 порція"
+		],
+		"fullDescription": "Флет уайт. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 4,
+		"caloriesKcal": 80,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "espreso",
+		"categorySlug": "coffee",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%B5%D1%81%D0%BF%D1%80%D0%B5%D1%81%D1%81%D0%BE-242x242.png",
+		"name": "Еспресо",
+		"description": "Еспресо — страва з меню Фламінго.",
+		"price": 72,
+		"labels": [
+			"Кава",
+			"1 порція"
+		],
+		"fullDescription": "Еспресо. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 4,
+		"caloriesKcal": 80,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "kapuchyno",
+		"categorySlug": "coffee",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%BA%D0%B0%D0%BF%D1%83%D1%87%D0%B8%D0%BD%D0%BE-242x242.png",
+		"name": "Капучино",
+		"description": "Капучино — страва з меню Фламінго.",
+		"price": 96,
+		"labels": [
+			"Кава",
+			"1 порція"
+		],
+		"fullDescription": "Капучино. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 4,
+		"caloriesKcal": 80,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "kapuchyno-na-kokosovomu-molotsi",
+		"categorySlug": "coffee",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%BA%D0%B0%D0%BF%D1%83%D1%87%D0%B8%D0%BD%D0%BE-242x242.png",
+		"name": "Капучино на кокосовому молоці",
+		"description": "Капучино на кокосовому молоці — страва з меню Фламінго.",
+		"price": 146,
+		"labels": [
+			"Кава",
+			"1 порція"
+		],
+		"fullDescription": "Капучино на кокосовому молоці. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 4,
+		"caloriesKcal": 80,
+		"portion": "1 порція",
+		"allergens": [
+			"молоко"
+		]
+	},
+	{
+		"slug": "late",
+		"categorySlug": "coffee",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%BB%D0%B0%D1%82%D0%B5-242x242.png",
+		"name": "Лате",
+		"description": "Лате — страва з меню Фламінго.",
+		"price": 97,
+		"labels": [
+			"Кава",
+			"1 порція"
+		],
+		"fullDescription": "Лате. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 4,
+		"caloriesKcal": 80,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "late-rafaello",
+		"categorySlug": "coffee",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%BB%D0%B0%D1%82%D0%B5-242x242.png",
+		"name": "Лате рафаелло",
+		"description": "Лате рафаелло — страва з меню Фламінго.",
+		"price": 167,
+		"labels": [
+			"Кава",
+			"1 порція"
+		],
+		"fullDescription": "Лате рафаелло. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 4,
+		"caloriesKcal": 80,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "kakao-z-khmarynkamy",
+		"categorySlug": "hot-drinks",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D0%BA%D0%B0%D0%BA%D0%B0%D0%BE_%D0%BC%D0%B0%D1%80%D1%88%D0%BC%D0%B5%D0%BB%D0%BE%D1%83-242x242.png",
+		"name": "Какао з хмаринками",
+		"description": "Какао з хмаринками — страва з меню Фламінго.",
+		"price": 94,
+		"labels": [
+			"Гарячий напій",
+			"1 порція"
+		],
+		"fullDescription": "Какао з хмаринками. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 4,
+		"caloriesKcal": 60,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "oblipykhovo-malynovyi-chai",
+		"categorySlug": "hot-drinks",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D1%87%D0%B0%D0%B9_%D1%87%D0%B0%D0%B9%D0%BD%D0%B8%D0%BA_%D0%BE%D1%80%D0%B0%D0%BD%D0%B6-242x242.png",
+		"name": "Обліпихово-малиновий чай",
+		"description": "Обліпихово-малиновий чай — страва з меню Фламінго.",
+		"price": 98,
+		"labels": [
+			"Гарячий напій",
+			"1 порція"
+		],
+		"fullDescription": "Обліпихово-малиновий чай. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 4,
+		"caloriesKcal": 60,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "chai-iahidnyi",
+		"categorySlug": "hot-drinks",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D1%87%D0%B0%D0%B9_%D1%87%D0%B0%D0%B9%D0%BD%D0%B8%D0%BA_%D1%80%D0%BE%D0%B6%D0%B5%D0%B2%D0%B8%D0%B9-242x242.png",
+		"name": "Чай ягідний",
+		"description": "Чай ягідний — страва з меню Фламінго.",
+		"price": 98,
+		"labels": [
+			"Гарячий напій",
+			"1 порція"
+		],
+		"fullDescription": "Чай ягідний. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 4,
+		"caloriesKcal": 60,
+		"portion": "1 порція",
+		"allergens": []
+	},
+	{
+		"slug": "chai-z-karpatskymy-travamy",
+		"categorySlug": "hot-drinks",
+		"image": "https://samogon.org/image/cache/catalog/flamingo1/napoyi/%D1%87%D0%B0%D0%B9_%D1%87%D0%B0%D0%B9%D0%BD%D0%B8%D0%BA_%D1%82%D1%80%D0%B0%D0%B2%D1%8F%D0%BD%D0%B8%D0%B9-242x242.png",
+		"name": "Чай з карпатськими травами",
+		"description": "Чай з карпатськими травами — страва з меню Фламінго.",
+		"price": 98,
+		"labels": [
+			"Гарячий напій",
+			"1 порція"
+		],
+		"fullDescription": "Чай з карпатськими травами. Склад, алергени та вагу порції уточнюйте у персоналу закладу.",
+		"suggested": [],
+		"cookTimeMinutes": 4,
+		"caloriesKcal": 60,
+		"portion": "1 порція",
+		"allergens": []
 	}
 ]
