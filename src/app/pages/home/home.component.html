@@ -45,12 +45,8 @@
 							<span class="ml-2">{{ company.phone }}</span>
 						</p>
 						<p>
-							<span class="font-semibold text-[var(--c-text-secondary)]" [translate]="'Електронна пошта'">{{ 'Електронна пошта' }}</span>
-							<span class="ml-2 break-all">{{ company.email }}</span>
-						</p>
-						<p>
 							<span class="font-semibold text-[var(--c-text-secondary)]" [translate]="'Адреса'">{{ 'Адреса' }}</span>
-							<span class="ml-2">{{ company.address }}</span>
+							<span class="ml-2" [translate]="company.address">{{ company.address }}</span>
 						</p>
 					</div>
 				</div>

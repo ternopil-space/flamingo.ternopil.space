@@ -9,8 +9,8 @@
 				<span [translate]="'Соцмережі'">{{ 'Соцмережі' }}</span>
 			</p>
 			<h1 class="mt-2 text-[1.8rem] font-semibold leading-9 text-[var(--c-text-secondary)]">
-				<span [translate]="'Контакти та соціальні мережі Horeca'">{{
-					'Контакти та соціальні мережі Horeca'
+				<span [translate]="'Контакти та соціальні мережі Фламінго'">{{
+					'Контакти та соціальні мережі Фламінго'
 				}}</span>
 			</h1>
 			<p class="mt-2 max-w-[42rem] text-sm leading-6 text-[var(--c-text-muted)]">
@@ -29,7 +29,7 @@
 					class="contact-card block rounded-[1.1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-4 shadow-[var(--shadow-sm)] transition-transform duration-200 hover:-translate-y-0.5"
 					[href]="companyPhoneHref"
 					translate
-					[translate]="{ ariaLabel: 'Зателефонувати до Horeca' }"
+					[translate]="{ ariaLabel: 'Зателефонувати до Фламінго' }"
 					[vars]="companyVars"
 				>
 					<div class="flex items-start gap-4">
@@ -77,6 +77,7 @@
 							</p>
 							<p
 								class="mt-2 text-lg font-semibold leading-7 text-[var(--c-text-secondary)]"
+								[translate]="company.address"
 							>
 								{{ company.address }}
 							</p>
@@ -116,7 +117,7 @@
 							<dt class="font-semibold text-[var(--c-text-secondary)]">
 								<span [translate]="entry.day">{{ entry.day }}</span>
 							</dt>
-							<dd class="font-semibold text-white">{{ entry.hours }}</dd>
+							<dd class="font-semibold text-[var(--c-text-secondary)]">{{ entry.hours }}</dd>
 						</div>
 					}
 				</dl>
@@ -136,14 +137,14 @@
 								<span class="text-[var(--c-secondary)]" aria-hidden="true">*</span>
 							</span>
 							<span
-								class="rounded-full bg-[color:rgba(197,61,61,0.14)] px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.12em] text-[var(--c-secondary)]"
+								class="rounded-full bg-[color:rgba(212,165,165,0.14)] px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.12em] text-[var(--c-secondary)]"
 								[translate]="'Обов’язково'"
 							>
 								{{ 'Обов’язково' }}
 							</span>
 						</span>
 						<input
-							class="mt-2 w-full rounded-[0.9rem] border border-[var(--c-secondary)] bg-[var(--c-bg-tertiary)] px-4 py-3 text-sm text-[var(--c-text-secondary)] shadow-[var(--shadow-sm)] outline-none ring-1 ring-[color:rgba(197,61,61,0.24)] transition-colors focus:border-[var(--c-secondary)] focus:ring-2"
+							class="mt-2 w-full rounded-[0.9rem] border border-[var(--c-secondary)] bg-[var(--c-bg-tertiary)] px-4 py-3 text-sm text-[var(--c-text-secondary)] shadow-[var(--shadow-sm)] outline-none ring-1 ring-[color:rgba(212,165,165,0.24)] transition-colors focus:border-[var(--c-secondary)] focus:ring-2"
 							type="tel"
 							autocomplete="tel"
 							[attr.placeholder]="company.phone"
@@ -209,7 +210,7 @@
 					}
 
 					@if (submitError()) {
-						<div class="mt-3 rounded-[0.9rem] bg-[color:rgba(197,61,61,0.14)] p-3 text-sm font-semibold leading-6 text-[var(--c-secondary)]">
+						<div class="mt-3 rounded-[0.9rem] bg-[color:rgba(212,165,165,0.14)] p-3 text-sm font-semibold leading-6 text-[var(--c-secondary)]">
 							<span [translate]="submitError()">{{ submitError() }}</span>
 						</div>
 					}

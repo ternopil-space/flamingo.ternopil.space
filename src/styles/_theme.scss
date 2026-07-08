@@ -4,8 +4,8 @@
 	/* brand / actions */
 	--c-primary: #8b6f47;
 	--c-primary-hover: #6b5344;
-	--c-secondary: #d4a5a5;
-	--c-secondary-hover: #c48b8b;
+	--c-secondary: #e0708f;
+	--c-secondary-hover: #c8546f;
 
 	/* surfaces */
 	--c-bg-primary: #faf8f5;
@@ -59,7 +59,7 @@
 	--motion-slow: 0.4s;
 
 	/* focus */
-	--focus-ring: 0 0 0 3px rgba(212, 165, 165, 0.45);
+	--focus-ring: 0 0 0 3px rgba(224, 112, 143, 0.45);
 }
 
 html[data-mode='dark'] {
@@ -68,8 +68,8 @@ html[data-mode='dark'] {
 	/* brand / actions */
 	--c-primary: #c9a876;
 	--c-primary-hover: #dbbf95;
-	--c-secondary: #e8c4c4;
-	--c-secondary-hover: #f2d9d9;
+	--c-secondary: #f2839f;
+	--c-secondary-hover: #f5a0b8;
 
 	/* surfaces */
 	--c-bg-primary: #221a14;
@@ -88,7 +88,7 @@ html[data-mode='dark'] {
 	--c-placeholder: #b39a7dcc;
 
 	/* focus */
-	--focus-ring: 0 0 0 3px rgba(232, 196, 196, 0.3);
+	--focus-ring: 0 0 0 3px rgba(242, 131, 159, 0.3);
 }
 
 html[data-density='compact'] {

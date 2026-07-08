@@ -1,6 +1,5 @@
 import { ChangeDetectionStrategy, Component, inject, signal } from '@angular/core';
 import { FormField, FormRoot, form, required } from '@angular/forms/signals';
-import { RouterLink } from '@angular/router';
 import { TranslateDirective } from '@wawjs/ngx-translate';
 import { firstValueFrom } from 'rxjs';
 import { ContactService } from '../../feature/contact/contact.service';
@@ -37,7 +36,7 @@ const initialBookingRequest = (phone = ''): BookingRequest => ({
 });
 
 @Component({
-	imports: [FormField, FormRoot, RouterLink, TranslateDirective],
+	imports: [FormField, FormRoot, TranslateDirective],
 	templateUrl: './book.component.html',
 	styleUrl: './book.component.scss',
 	changeDetection: ChangeDetectionStrategy.OnPush,
